@@ -3042,6 +3042,9 @@ input.checkbox {
 /*----------------------------------------*/
 /*  21. Shopping Cart Page CSS
 /*----------------------------------------*/
+
+form{display:flex;flex-wrap: wrap;flex-direction: column;align-content: space-around;}
+
 .shop-form {
 	margin-bottom: 30px;
 }
@@ -4648,13 +4651,17 @@ h3.comments-title,h3.user-comment-title {
 .first-name,.email,.billing_phone{
     padding-left: 0px;
 }
+
+
 .first-name > input, .last-name > input, .email > input, .subject > input, .billing_phone > input {
 	border: 1px solid #ebebeb;
 	border-radius: 0;
 	padding-left: 15px;
 	width: 100%;
 	height: 46px;
+
 }
+
 .contact-address > ul > li {
 	display: block;
 	padding: 10px 0;
