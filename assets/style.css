@@ -4642,24 +4642,17 @@ h3.comments-title,h3.user-comment-title {
 	margin-bottom: 35px;
 	line-height: 1.35;
 }
-.first-name, .last-name, .email, .subject,.billing_phone {
-	width: 50%;
-	float: left;
+.name, .phone, .email, .password, .submit, .billing_phone {
+	border: 1px solid #ebebeb;
 	margin-bottom: 20px;
 	padding: 0 10px;
 }
-.first-name,.email,.billing_phone{
-    padding-left: 0px;
-}
 
-
-.first-name > input, .last-name > input, .email > input, .subject > input, .billing_phone > input {
+.name > input, .phone > input, .email > input, .password > input, .submit > input, .billing_phone > input {
 	border: 1px solid #ebebeb;
-	border-radius: 0;
+	border-radius: 4;
 	padding-left: 15px;
-	width: 100%;
-	height: 46px;
-
+	
 }
 
 .contact-address > ul > li {

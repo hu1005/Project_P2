@@ -448,7 +448,7 @@ a.button-small:after {
     z-index: 1;
 }
 a.button-small:hover::after { width: 100% }
-.form-button,.readmore-button,.price-button,.compare-btn {
+.submit-button,.form-button,.readmore-button,.price-button,.compare-btn {
 	background: #363f4d;
 	box-shadow: none;
 	border: 0;
@@ -525,7 +525,7 @@ a.button-small:hover::after { width: 100% }
 	vertical-align: bottom;
 	margin-left: 5px;
 }
-.form-button:hover,.readmore-button:hover,.price-button:hover,.compare-btn:hover,.action-btn.big:hover,.action-btn.small:hover{
+.submit-button:hover,.form-button:hover,.readmore-button:hover,.price-button:hover,.compare-btn:hover,.action-btn.big:hover,.action-btn.small:hover{
     background: #eb3e32;
     color: #fff;
 }
@@ -606,7 +606,7 @@ a.button.extra-small i { padding: 11px; width: 38px; font-size: 13px; }
 *************************/
 input {
 	background: #fff;
-	border: 0;
+	border: 1px solid #ebebeb;
 	height: 50px;
 	box-shadow: none;
 	padding-left: 10px;

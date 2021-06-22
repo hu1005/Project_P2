@@ -1,25 +1,25 @@
 <?php
 // database connection code
-if(isset($_POST['txtName']))
+if(isset($_POST['name']))
 {
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
 $con = mysqli_connect('localhost', 'root', '','db_contact');
 
 // get the post records
 
-$txtName = $_POST['txtName'];
-$txtEmail = $_POST['txtEmail'];
-$txtPhone = $_POST['txtPhone'];
-$txtMessage = $_POST['txtMessage'];
+$name = $_POST['name'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$password = $_POST['password'];
 
 // database insert SQL code
-$sql = "INSERT INTO `tbl_contact` (`Id`, `fldName`, `fldEmail`, `fldPhone`, `fldMessage`) VALUES ('0', '$txtName', '$txtEmail', '$txtPhone', '$txtMessage')";
+$sql = "INSERT INTO `signup` VALUES ('$name', '$email', '$phone', '$password')";
 
 // insert in database 
 $rs = mysqli_query($con, $sql);
 if($rs)
 {
-	echo "Contact Records Inserted";
+	echo "Signed Up Successfully";
 }
 }
 else
