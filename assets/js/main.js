@@ -22,9 +22,9 @@
     5.4 Brand Active 
     5.5 Our Blog Active Home 2
     5.6 Hot Deal Product  Home 3
-    5.7 Bestseller Product3 Active Home 3
+    5.7 Bestseller category3 Active Home 3
     5.8 New Arrival List Product Active Home 3
-    5.9 Electronic Product3 Active Home 3
+    5.9 Electronic category3 Active Home 3
     5.10 Latest Blog Active Home 3
     5.11 Blog Post Slider Active
     5.12 Product Tab Menu Active
@@ -269,9 +269,9 @@ $('.category-heading').on('click', function(){
         }
     })
 /*--------------------------------------
-  5.7 Bestseller Product3 Active Home 3
+  5.7 Bestseller category3 Active Home 3
 ---------------------------------------*/
- $('.bestseller-product3')
+ $('.bestseller-category3')
         .on('changed.owl.carousel initialized.owl.carousel', function (event) {
             $(event.target)
                 .find('.owl-item').removeClass('last')
@@ -329,9 +329,9 @@ $('.category-heading').on('click', function(){
         }
     }) 
 /*--------------------------------------- 
-  5.9 Electronic Product3 Active Home 3
+  5.9 Electronic category3 Active Home 3
 -----------------------------------------*/
- $('.electronic-product3')
+ $('.electronic-category3')
         .on('changed.owl.carousel initialized.owl.carousel', function (event) {
             $(event.target)
                 .find('.owl-item').removeClass('last')
