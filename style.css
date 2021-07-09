@@ -121,6 +121,8 @@ Please do not change anything here! write in a custom.css file if required!
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i|Raleway:400,700,900|Shadows+Into+Light');
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
 #signup{
 color:#fff;}

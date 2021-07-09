@@ -1,12 +1,18 @@
-   document.logOn.onsubmit=validate;
+var http = require('http');
+var fs = require('fs');
+var app = require('express');
 
-   function validate(){
+app.get('styles.css', function(req, res){ res.send('styles.css'); res.end(); });
 
-var name=document.logOn.pw.value;
-    if(!name = 000000){              
-alert("Your Password Cant Have any thing other than a-zA-Z0-9!@#$%^*_| - Play It Straight!");
-    return false;
-}               
-alert("Your Password Cant Have any thing other than a-zA-Z0-9!@#$%^*_| - Play It Straight!");
-    return true;
-}
+const PORT=8080; 
+
+fs.readFile('index.html', function (err, html) {
+
+    if (err) throw err;    
+
+    http.createServer(function(request, response) {  
+        response.writeHeader(200, {"Content-Type": "text/html"});  
+        response.write(html);  
+        response.end();  
+    }).listen(PORT);
+});
