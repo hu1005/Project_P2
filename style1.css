@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i|Raleway:400,700,900|Shadows+Into+Light');
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
+.form-container{
+  background-color: #fff;
+   max-width: 300px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  width: 250px;
+  height: 190px;
+  border: 3px solid #f1f1f1;
+  border-radius:10px;
+  margin-bottom:10px;
+  opacity: 0.7;
+}
+.form-container input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+
+}
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.form-container input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
 .btn {
   background-color: #68b501;
   color: white;
@@ -16,7 +45,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   color: white;
   padding:;
   border: 1px solid grey;
-  border-radius: 200px;
+  border-radius: 10px;
   cursor: pointer;
   opacity: 0.8;
   position: fixed;
@@ -34,7 +63,7 @@ color:#fff;}
   color: white;
   padding:;
   border: 1px solid grey;
-  border-radius:100px;
+  border-radius: 10px;
   cursor: pointer;
   opacity: 0.8;
   position: fixed;
