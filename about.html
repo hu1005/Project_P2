@@ -11,29 +11,29 @@
     <style>
         .backg {
             background-image: url("https://wallpaperaccess.com/full/1638168.jpg");
-            margin-right: 40px;
-            margin-left: 40px;
-            box-sizing: border-box;
+            
 
         }
     </style>
+	
+<!--theme swiching-->	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+	<script src="theme.js"></script>
+    	
+<!--pincode popup and validation -->	
+	<script src="pincode-validate.js"></script>
+	<script src="popup.js"></script>
+	<link rel="stylesheet" href="css/popup.css">
+	
 
-    <meta name="description"
-        content="Him Value start Organic Food and Organic Farming farm in Kotabagh Nainital Uttarakhand, we provides Organic Products in all Uttarakhand" />
-    <meta name="keywords"
-        content="Him Value Kotabagh, Organic Food in Kotabagh Nainital, Organic Farming in Kotabagh Nainital, Agriculture Research in kotabagh Nainital, Farming in Kotabagh, himvalue kotabagh, Him Value Kotabagh. " />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="__img/favicon.html">
-
     <!-- Ionicons Font CSS-->
     <link rel="stylesheet" href="css/ionicons.min.css">
     <!-- font awesome CSS-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
     <!-- Animate CSS-->
     <link rel="stylesheet" href="css/animate.css">
     <!-- UI CSS-->
@@ -54,12 +54,8 @@
     <link rel="stylesheet" href="css/easyzoom.css">
     <!-- Slick CSS-->
     <link rel="stylesheet" href="css/slick.css">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Default CSS -->
-    <link rel="stylesheet" href="css/default.css">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css">
+
+
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Modernizr Js -->
@@ -67,19 +63,33 @@
 </head>
 
 <body>
-    <!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
+
+<button class="open-button" onclick="openForm()">Check Service Availability</button>
+
+<div class="form-popup" id="myForm">
+  <form action="" class="form-container">
+<input id="pincode" placeholder="Enter PINCODE"> 
+										  <button type="button" class="btn" onclick="myFunction()">Submit</button>
+										  <button type="button" class="btn" onclick="closeForm()">Close</button>
+  </form>
+</div>
+	   
+                                 
     <div class="wrapper home-5">
-         <!--Header Area Start-->
+        <!--Header Area Start-->
         <header>
+
            <div class="header-container">
-                  <!--Header Top Area Start--> 
+																							   
+
+<button id="themetoggle" onclick="toggleTheme()">Switch Theme</button>
+
+               <!--Header Top Area Start--> 
               <div class="header-top-area">
                    <div class="container">
                        <div class="row">
-                           <!--Header Top Left Area Start-->
+ <!--Header Top Left Area Start-->
                             <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
                                <div class="header-top-menu">
                                    <ul>
@@ -89,20 +99,22 @@
                                    </ul>
                                </div>
                            </div>
-                        
-                           <!--Header Top Right Area Start-->
+								
+						   <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
+                               <div class="header-top-menu">
+                                   
+                               </div>
+                           </div>		
+						    <!--Header Top Right Area Start-->
                            <div class="col-md-8 col-sm-8 hidden-xs text-right">
                                <div class="header-top-menu">
                                    <ul>
-                                       <li class="support"><span><a href = "signup.html">Sign Up | </a><a href = "login.html">Login</a></span></li>
+                                       <li class="support"><span><a id="signup" href = "signup.html">Sign Up | </a><a id="login"href = "login.html">Login</a></span></li>
                                       
                                    </ul>
                                </div>
                            </div>
                            <!--Header Top Right Area End-->
-                       </div>
-                   </div>
-               </div>
                <!--Header Top Area End-->
                <!--Header Middel Area Start-->
                <div class="header-middel-area">
@@ -258,17 +270,17 @@
                         <div class="carousel-item active">
                             <img class="d-block w-100"
                                 src="https://jobganic.com/wp-content/uploads/2017/12/young-female-organic-farmer.jpg"
-                                alt="First slide" width="200" height="500">
+                                alt="First slide" width="1000vw" height="500">
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100"
                                 src="https://www.greenqueen.com.hk/wp-content/uploads/2020/02/organic-farming.jpg"
-                                alt="Second slide" width="200" height="500">
+                                alt="Second slide" width="1000vw" height="500">
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100"
                                 src="https://images.squarespace-cdn.com/content/v1/5ad6ae1db27e393918126056/1618333712963-TA4UXVEG1VFHV6VX1FAV/ke17ZwdGBToddI8pDm48kFhonBwDvLp-Upbeg9qaaKV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UW_lzWu0AKhraK1_ogz-6SUeG_EXqhoq7y7lkYDdFAkek2v_tolygBs-nNvSJMbAHg/Storage_Crops.9.21.20.55SMALL.jpg?format=1000w"
-                                alt="Third slide" width="200" height="500">
+                                alt="Third slide" width="1000vw" height="500">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

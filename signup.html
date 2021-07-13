@@ -7,12 +7,21 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Sign Up</title>
- 
- 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="__img/favicon.html">
-    
+ 	
+<!--theme swiching-->	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+	<script src="theme.js"></script>
+    	
+<!--pincode popup and validation -->	
+	<script src="pincode-validate.js"></script>
+	<script src="popup.js"></script>
+	<link rel="stylesheet" href="css/popup.css">
 	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="__img/favicon.html">
     <!-- Ionicons Font CSS-->
     <link rel="stylesheet" href="css/ionicons.min.css">
     <!-- font awesome CSS-->
@@ -37,55 +46,69 @@
     <link rel="stylesheet" href="css/easyzoom.css">
     <!-- Slick CSS-->
     <link rel="stylesheet" href="css/slick.css">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Default CSS -->
-    <link rel="stylesheet" href="css/default.css">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css">
+
+
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Modernizr Js -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
-<body>
-    <!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
+<body>
+
+
+<button class="open-button" onclick="openForm()">Check Service Availability</button>
+
+<div class="form-popup" id="myForm">
+  <form action="" class="form-container">
+<input id="pincode" placeholder="Enter PINCODE"> 
+										  <button type="button" class="btn" onclick="myFunction()">Submit</button>
+										  <button type="button" class="btn" onclick="closeForm()">Close</button>
+  </form>
+</div>
+	   
+                                 
     <div class="wrapper home-5">
         <!--Header Area Start-->
         <header>
+
            <div class="header-container">
-                 <!--Header Top Area Start--> 
+																							   
+
+<button id="themetoggle" onclick="toggleTheme()">Switch Theme</button>
+
+               <!--Header Top Area Start--> 
               <div class="header-top-area">
                    <div class="container">
                        <div class="row">
-                           <!--Header Top Left Area Start-->
+ <!--Header Top Left Area Start-->
                             <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
                                <div class="header-top-menu">
                                    <ul>
-                                       <li class="CONTACT"><i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
+                                       <li>
+                                          <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
                                        </li>
                                    </ul>
                                </div>
                            </div>
-                        
-                           <!--Header Top Right Area Start-->
+								
+						   <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
+                               <div class="header-top-menu">
+                                   
+                               </div>
+                           </div>		
+						    <!--Header Top Right Area Start-->
                            <div class="col-md-8 col-sm-8 hidden-xs text-right">
                                <div class="header-top-menu">
                                    <ul>
-                                       <li class="support"><span><a href = "signup.html">Sign Up | </a><a href = "login.html">Login</a></span></li>
+                                       <li class="support"><span><a id="signup" href = "signup.html">Sign Up | </a><a id="login"href = "login.html">Login</a></span></li>
                                       
                                    </ul>
                                </div>
                            </div>
                            <!--Header Top Right Area End-->
-                       </div>
-                   </div>
-               </div>
                <!--Header Top Area End-->
-               <!--Header Middel Area Start-->
+              <!--Header Middel Area Start-->
                <div class="header-middel-area">
                    <div class="container">
                        <div class="row">

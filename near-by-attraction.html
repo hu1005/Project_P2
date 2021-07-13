@@ -1,34 +1,34 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-
-
-<!-- Mirrored from himvalue.com/near-by-attraction by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Jun 2021 19:23:47 GMT -->
-<!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!--   <title>Him Value - Organic Food and Farming</title> -->
     <title>Project P2</title>
+	
+<!--theme swiching-->	
 
-    <meta name="description"
-        content="Kotabagh is a best place for Agriculture Research and Tourist Place, Him Value provides a best way for organic farming research. " />
-    <meta name="keywords"
-        content="Teet Mandir Kotabagh, Jim Corbett Nainition Park Nainittal, Kotabagh, Corbett Fall in Kotabagh, Sitabani Temple, Sitabani Mandir Kotabagh, Organic Products in Kotabagh " />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+	<script src="theme.js"></script>
+    	
+<!--pincode popup and validation -->	
+	<script src="pincode-validate.js"></script>
+	<script src="popup.js"></script>
+	<link rel="stylesheet" href="css/popup.css">
+	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="__img/favicon.html">
-
     <!-- Ionicons Font CSS-->
     <link rel="stylesheet" href="css/ionicons.min.css">
     <!-- font awesome CSS-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
     <!-- Animate CSS-->
     <link rel="stylesheet" href="css/animate.css">
     <!-- UI CSS-->
@@ -49,12 +49,8 @@
     <link rel="stylesheet" href="css/easyzoom.css">
     <!-- Slick CSS-->
     <link rel="stylesheet" href="css/slick.css">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Default CSS -->
-    <link rel="stylesheet" href="css/default.css">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css">
+
+
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Modernizr Js -->
@@ -62,19 +58,33 @@
 </head>
 
 <body>
-    <!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
+
+<button class="open-button" onclick="openForm()">Check Service Availability</button>
+
+<div class="form-popup" id="myForm">
+  <form action="" class="form-container">
+<input id="pincode" placeholder="Enter PINCODE"> 
+										  <button type="button" class="btn" onclick="myFunction()">Submit</button>
+										  <button type="button" class="btn" onclick="closeForm()">Close</button>
+  </form>
+</div>
+	   
+                                 
     <div class="wrapper home-5">
         <!--Header Area Start-->
         <header>
-            <div class="header-container">
-                  <!--Header Top Area Start--> 
+
+           <div class="header-container">
+																							   
+
+<button id="themetoggle" onclick="toggleTheme()">Switch Theme</button>
+
+               <!--Header Top Area Start--> 
               <div class="header-top-area">
                    <div class="container">
                        <div class="row">
-                           <!--Header Top Left Area Start-->
+ <!--Header Top Left Area Start-->
                             <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
                                <div class="header-top-menu">
                                    <ul>
@@ -84,20 +94,22 @@
                                    </ul>
                                </div>
                            </div>
-                        
-                           <!--Header Top Right Area Start-->
+								
+						   <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
+                               <div class="header-top-menu">
+                                   
+                               </div>
+                           </div>		
+						    <!--Header Top Right Area Start-->
                            <div class="col-md-8 col-sm-8 hidden-xs text-right">
                                <div class="header-top-menu">
                                    <ul>
-                                       <li class="support"><span><a href = "signup.html">Sign Up | </a><a href = "login.html">Login</a></span></li>
+                                       <li class="support"><span><a id="signup" href = "signup.html">Sign Up | </a><a id="login"href = "login.html">Login</a></span></li>
                                       
                                    </ul>
                                </div>
                            </div>
                            <!--Header Top Right Area End-->
-                       </div>
-                   </div>
-               </div>
                <!--Header Top Area End-->
                 <!--Header Middel Area Start-->
                 <div class="header-middel-area">
