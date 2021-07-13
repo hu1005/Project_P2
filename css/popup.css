@@ -1,28 +1,17 @@
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 
-.open-button {
-  background-color: #555;
-  color: white;
-  padding:;
-  border: 1px solid grey;
-  cursor: pointer;
-  opacity: 0.8;
-  position: fixed;
-  bottom: ;
-  right: 100px;
-  width: 170px;
-}
 
 /* The popup form - hidden by default */
 .form-popup {
   display: none;
   position: fixed;
-  bottom: ;
-  right: 400px;
-  width: 280px;
-  height: 157px;
+  top:62px;
+  right: 11px; 
+  width: 250px;
+  height: 190px;
   border: 3px solid #f1f1f1;
+  border-radius:10px;
   z-index: 9;
 }
 
@@ -49,13 +38,15 @@
 }
 
 /* Set a style for the submit/login button */
-.form-container .btn {
-  background-color: #04AA6D;
+.form-container{
+  background-color: #fff;
   color: white;
-
-  border: none;
   cursor: pointer;
-  width: 100%;
+ width: 250px;
+  height: 190px;
+  border: 3px solid #f1f1f1;
+  border-radius:10px;
+ 
   margin-bottom:10px;
   opacity: 0.8;
 }
