@@ -120,14 +120,49 @@ Please do not change anything here! write in a custom.css file if required!
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i|Raleway:400,700,900|Shadows+Into+Light');
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
+
+
 
 #signup{
 color:#fff;}
 #login{
 color:#fff;}
+/*
+#txtName{
+	position:absolute;
+	top:46vh;
+	right:49vw;
+	width:14vw;
+}
+#txtEmail{
+	position:fixed;
+	top:46vh;
+	right:35vw;
+	width:14vw;
+}
+#txtPhone{
+	position:fixed;
+	top:55vh;
+	right:49vw;
+	width:14vw;
+}
+#txtPassword{
+	position:fixed;
+	top:55vh;
+	right:35vw;
+	width:14vw;
+}
+#signup-submit{
+	position:fixed;
+	top:65vh;
+	right:44vw;
+	width:10vw;
+	
+}*/
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -695,6 +730,11 @@ a.button.extra-small i { padding: 11px; width: 38px; font-size: 13px; }
 /*************************
         Input
 *************************/
+.contact-form {
+	
+	display:flex;
+	flex-direction:row
+}
 input {
 	background: #fff;
 	border: 1px solid #ebebeb;
@@ -5756,7 +5796,7 @@ h3.comments-title,h3.user-comment-title {
 }
 .name, .phone, .email, .password, .submit, .billing_phone {
 	border: 1px solid #ebebeb;
-	margin-bottom: 20px;
+	margin-bottom:;
 	padding: 0 10px;
 }
 
@@ -5784,7 +5824,6 @@ p.form-messege.success {
 	margin-top: 10px;
 	border: 1px solid #ebebeb;
 	padding: 5px 10px;
-    text-transform: capitalize;
 	font-weight: 600;
 	margin-bottom: 0;
 }

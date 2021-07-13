@@ -204,7 +204,7 @@
                                 </ul>
                             </div>
                             <div class="heading-banner-title">
-                                <h1>Sign Up</h1>
+                                <h1>Enter details below to signup</h1>
                             </div>
                         </div>
                     </div>
@@ -220,34 +220,31 @@
                         <h2></h2>
                     </div>
       <section>              
-<div class="contact-form">
-        <p class="lead">Enter details below to signup</p>
-      </div>
-
+<div id="signup-form" class="contact-form">
    <form name="frmContact" class="needs-validation " method="post" action="signup.php">
-    <p>
-      <label for="Name">Your Username </label>
-      <input type="text" class="name" name="name" id="txtName" placeholder="Username" value="" required>
-	</p>
-    <p>
-      <label for="email">Your Email</label>
-      <input type="text"  class="email"  name="email" id="txtEmail" placeholder="Email" value="" required>
-    </p>
-    <p>
-      <label for="phone">Your Phone</label>
-      <input type="text"  class="phone" name="phone" id="txtPhone" placeholder="Phone" value="" required>
-    </p>
-    <p>
-      <label for="password">Password</label>
-      <input type = "password"name="password" class="password"  id="txtMessage"  placeholder="Password" required>
-    </p>
-    <p>&nbsp;</p>
-    <p>
-      <input type="submit" name="Submit"  value="Sign Up"  class="submit-button">
-    </p>
-  </form>
-</div>
+   
+   <label for="Name">Your Username </label>
+      <input type="text" class="name" name="name"  placeholder="Username" value="" required>
+	  
 
+	  <label for="email">Your Email</label>
+      <input type="text"  class="email"  name="email"  placeholder="Email" value="" required>
+
+      <label for="phone">Your Phone</label>
+      <input type="text"  class="phone" name="phone"  placeholder="Phone" value="" required>
+
+      <label >Password</label>
+      <input type = "password"name="password" class="password"   placeholder="Password" required>
+
+      <input type="submit" name="Submit"  value="Sign Up" id="signup-submit" class="submit-button">
+
+   
+      <label type="text" name="forgot"  value=""  class="first-name"><a href = "forgot.html">FORGOT PASSWORD</a>
+	  <label<a href = "signup.html"></a>
+  </form>
+
+</div>
+</div>
         
 	</section>
 	            <!--Contact Form End-->

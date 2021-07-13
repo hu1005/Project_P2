@@ -55,17 +55,21 @@ function closeForm() {
 <style>
 
 /* Button used to open the contact form - fixed at the bottom of the page */
+#themetoggle{
+  right: 0px;
+  width:100px;
+}
 .open-button {
   background-color: #555;
   color: white;
-  padding: 16px 20px;
-  border: none;
+  padding:;
+  border: 1px solid grey;
   cursor: pointer;
   opacity: 0.8;
   position: fixed;
   bottom: ;
   right: 100px;
-  width: 280px;
+  width: 170px;
 }
 
 /* The popup form - hidden by default */
@@ -181,7 +185,7 @@ function closeForm() {
            <div class="header-container">
 																							   
 
-<button id="themetoggle" onclick="toggleTheme()">Switch Theme</button>
+<button class="open-button" id="themetoggle" onclick="toggleTheme()">Switch Theme</button>
 
                <!--Header Top Area Start--> 
               <div class="header-top-area">
