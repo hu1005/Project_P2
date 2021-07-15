@@ -231,7 +231,7 @@ hr.mtb-40 {
 label {
     font-size: 15px;
     font-weight: 400;
-    color: #626262;
+    color: #fff;
 }
 *::-moz-selection {
     background: #91b2c3;
@@ -678,7 +678,7 @@ a.button.extra-small i { padding: 11px; width: 38px; font-size: 13px; }
 	flex-direction:row
 }
 input {
-	background: #424242;
+	background: #fff;
 	border: 1px solid #ebebeb;
 	height: 50px;
 	box-shadow: none;
@@ -1161,7 +1161,7 @@ textarea:focus {
 FLOAT:RIGHT;}
 
 .header-container {
-	background: #373737;
+	background: #222;
 	color: #424242;
 }
 .header-top-area {
@@ -3203,7 +3203,7 @@ li.right-menu .cat-mega-menu > li {
 	background: #373737;
 }
 .home-5 .product-price > span.new-price {
-	color: #373737;
+	color: #fff;
 }
 .home-5 a.button {
 	background: #68b501;
