@@ -180,11 +180,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
   right: 100px;
   width: 170px;
 }
-
+.footer-container bg-3{
+background-color:red;
+}
 #signup{
-color:#fff;}
+color:#222;}
 #login{
-color:#fff;}
+color:#222;}
 #themetoggle{
   background-color: #363f4d;
   color: white;
@@ -1196,7 +1198,7 @@ textarea:focus {
 	background-repeat: no-repeat;
 }
 .bg-3 {
-	background: url(../img/bg/footer-bg1.jpg);
+	background: url(img/bg/footer-bg-light.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1450,12 +1452,12 @@ FLOAT:RIGHT;}
 }
 .mini-cart-area > ul > li > a {
 	font-size: 24px;
-	color: #fff;
+	color: #222;
 	display: block;
 	margin-right: 15px;
 	width: 50px;
 	height: 50px;
-	border: 2px solid #fff;
+	border: 2px solid #222;
 	line-height: 45px;
 	text-align: center;
 	border-radius: 100%;
@@ -3274,10 +3276,11 @@ li.right-menu .cat-mega-menu > li {
 	color: #68B501;
 }
 .home-5 .header-container {
-    background: #68b501;
-    color: #fff;
+   	background: url(img/bg/footer-bg-light.jpg);
+
+    color: #222;
 }
-.home-5 .search-box button:hover{
+.home-5 .search-b;ox button:hover{
     color: #68B501;
 }
 .home-5 .mini-cart-area > ul > li > a:hover{

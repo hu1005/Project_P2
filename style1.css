@@ -1071,7 +1071,7 @@ textarea:focus {
 	background-repeat: no-repeat;
 }
 .bg-3 {
-	background: url(../img/bg/footer-bg1.jpg);
+	background: url(img/bg/footer-bg-dark.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1161,7 +1161,7 @@ textarea:focus {
 FLOAT:RIGHT;}
 
 .header-container {
-	background: #eb3e32;
+	background: #373737;
 	color: #424242;
 }
 .header-top-area {
@@ -3149,7 +3149,7 @@ li.right-menu .cat-mega-menu > li {
 	color: #373737;
 }
 .home-5 .header-container {
-    background: #373737;
+	background-color:373737;
     color: #fff;
 }
 .home-5 .search-box button:hover{
