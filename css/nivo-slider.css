@@ -8,6 +8,11 @@
  */
  
 /* The Nivo Slider styles */
+
+#img1{
+		opacity:1;
+
+}
 .nivoSlider {
 	position:relative;
 	width:100%;
@@ -68,7 +73,7 @@
 	width:100%;
 	z-index:8;
 	padding: 5px 10px;
-	opacity:0.8;
+	opacity:0.5;
 	overflow: hidden;
 	display: none;
 	-moz-opacity: 0.8;
