@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sign Up</title>
+    <title>Forgot Password</title>
  	
 <!--theme swiching-->	
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -243,22 +243,17 @@
                     </div>
       <section>              
 <div id="signup-form" class="contact-form">
-   <form name="frmContact" class="needs-validation " method="post" action="signup.php">
+   <form name="frmContact" class="needs-validation " method="post" action="forgot.php">
    
    <label for="Name">Your Username </label>
-      <input type="text" class="name" name="name"  placeholder="Username" value="" required>
+      <input type="text" class="name" name="f_name"  placeholder="Username" value="" required>
 	  
 
 	  <label for="email">Your Email</label>
-      <input type="text"  class="email"  name="email"  placeholder="Email" value="" required>
 
-      <label for="phone">Your Phone</label>
-      <input type="text"  class="phone" name="phone"  placeholder="Phone" value="" required>
+      <input type="text"  class="email"  name="f_email"  placeholder="Email" value="" required>
 
-      <label >Password</label>
-      <input type = "password"name="password" class="password"   placeholder="Password" required>
-
-      <input type="submit" name="Submit"  value="Sign Up" id="signup-submit" class="submit-button">
+      <input type="submit" name="forgot"  value="Forgot Password" id="signup-submit" class="submit-button">
 
    
       <label type="text" name="forgot"  value=""  class="first-name">FORGOT PASSWORD<a href = "forgot.html"> Click Here</a></label>
