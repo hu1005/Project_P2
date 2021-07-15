@@ -1,6 +1,6 @@
 
 <?php 
-
+error_reporting(0);
     include('connection.php');  
     $name = $_POST['f_name'];  
 	 $email = $_POST['f_email'];  
@@ -13,13 +13,21 @@ $rs = mysqli_query($con,$sql);
 
 	while($row = mysqli_fetch_assoc($rs)){
       $result = $row['password'];
-      echo $result;
-	}
-	
+   	}
 $to_email = "hupadhyay2012@gmail.com";
 $subject = "Your Password"; 
-$body = "Hi,We just received your forgot  password request. The password for the entered username and email address is:- $result";
+$body = "Hi,We just received your forgot password request. The password for the Username:-$name is:- $result";
 $headers = "From: hupadhyay2012@gmail.com";
 
-echo $body;
+if($result)
+{
+	echo "Your password has been successfully sent on your registered Email address";
+	echo $body;
+}
+
+else
+{
+	echo "Sorry, we could not find the entered Username and Email Address combination in our database.";
+	
+}
 ?>  
