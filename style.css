@@ -846,7 +846,7 @@ input:focus {
 }
 textarea {
 	resize: vertical;
-	background: #fff;
+	background: #373737;
 	border: 1px solid #ebebeb;
 	padding: 10px;
 	width: 100%;
