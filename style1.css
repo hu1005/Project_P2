@@ -1472,7 +1472,7 @@ FLOAT:RIGHT;}
 	color: #424242;
 	font-weight: 500;
 	display: block;
-	padding: 29px 64px 29px 64px;
+	padding: 29px 50px 29px 50px;;
 }
 .main-menu > li:first-child > a{
     padding-left: 0;
@@ -1481,7 +1481,7 @@ FLOAT:RIGHT;}
     color: #EB3E32
 }
 #home{
-	padding: 0px 0px 0px 64px;
+	padding: 0px 0px 0px 52px;
 }
 .main-menu > li.new:before,.main-menu > li.hot:before {
 	position: absolute;
