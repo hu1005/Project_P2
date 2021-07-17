@@ -14,6 +14,7 @@ $rs = mysqli_query($con,$sql);
 	while($row = mysqli_fetch_assoc($rs)){
       $result = $row['password'];
    	}
+
 $to_email = "hupadhyay2012@gmail.com";
 $subject = "Your Password"; 
 $body = "Hi,We just received your forgot password request. The password for the Username:-$name is:- $result";
@@ -22,7 +23,7 @@ $headers = "From: hupadhyay2012@gmail.com";
 if($result)
 {
 	echo "Your password has been successfully sent on your registered Email address";
-	echo $body;
+	
 }
 
 else
