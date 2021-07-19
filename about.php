@@ -3,11 +3,19 @@
 
 
 
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Login</title>
- 		
+    <title>About Us</title>
+    <style>
+        .backg {
+            background-image: url("https://wallpaperaccess.com/full/1638168.jpg");
+            
+
+        }
+    </style>
+	
 <!--theme swiching-->	
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -87,8 +95,7 @@
                                    <ul>
                                        <li>
                                           <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
-                                          <i class="fa fa-envelope-o"> patidarakshay999@gmail.com | </i><i class="fa fa-phone"> +91-9521263447 </i>
-                                        </li>
+                                       </li>
                                    </ul>
                                </div>
                            </div>
@@ -109,7 +116,7 @@
                            </div>
                            <!--Header Top Right Area End-->
                <!--Header Top Area End-->
-          <!--Header Middel Area Start-->
+               <!--Header Middel Area Start-->
                <div class="header-middel-area">
                    <div class="container">
                        <div class="row">
@@ -125,7 +132,11 @@
                            <!--Mini Cart Start-->
                            <div class="col-md-3 col-sm-4 col-xs-8">
                                <div class="mini-cart-area">
-                                   
+                                   <ul>
+                                       <li>
+                                                                                  <a href="mycart.php"><i class="ion-android-cart"></i><span class="cart-add"></span><span class="cart-total"> </a>
+                                                                               </li>
+                                   </ul>
                                </div>
                            </div>
                            <!--Mini Cart End-->
@@ -145,28 +156,26 @@
 
                                    <nav>
                                        <ul class="main-menu">
-                                          <li id="home" class="active" ><a href="index.php">Home</a></li>
+                                          <li id="home"><a href="index.php">Home</a></li>
                                           
                                                                                                                                        
 											 <li><a href = #>Our Products<span class="caret"></span></a>
                                                <ul class="dropdown">
                                                <li><a href="products/category1.html">Category 1</a> </li>
 											    <li><a href="products/category2.html">Category 2</a> </li>
-											   <li><a href="products/category3.html">Category 3</a> </li>
+											   <li><a href="products/category3.html">Category 3></a> </li>
 											   <li><a href="products/category4.html">Category 4</a> </li>
 											  
 											   </ul></li>
 											   
 											   </li>
                                                                                             
-                                            <li ><a href="about.php" >About Us</a></li>
+                                            <li  class="active" ><a href="about.php" >About Us</a></li>
                                             <li><a href="near-by-attraction.php">Near By Attraction</a></li>
-                                          
-                                            
-    
+                                     
+                            
                                            <li><a href="contact.html">Contact us</a></li>
                                            <li><a href="index3.php">Our Store</a></li>
-                                                                                          
                                        </ul>
                                    </nav>
                                </div>
@@ -184,27 +193,25 @@
                                <div class="mobile-menu">
                                                                       <nav>
                                        <ul class="main-menu">
-                                          <li id="home" class="active" ><a href="index.php">Home</a></li>
+                                          <li id="home"><a href="index.php">Home</a></li>
                                           
                                                                                                                                        
 											 <li><a href = #>Our Products<span class="caret"></span></a>
                                                <ul class="dropdown">
                                                <li><a href="products/category1.html">Category 1</a> </li>
 											    <li><a href="products/category2.html">Category 2</a> </li>
-											   <li><a href="products/category3.html"Category 3</a> </li>
+											   <li><a href="products/category3.html"Category 3></a> </li>
 											   <li><a href="products/category4.html">Category 4</a> </li>
 											  
 											   </ul></li>
 											   
 											   </li>
                                                                                             
-                                            <li ><a href="about.php" >About Us</a></li>
+                                            <li  class="active" ><a href="about.php" >About Us</a></li>
                                             <li><a href="near-by-attraction.php">Near By Attraction</a></li>
-                                          
+                                         
                                             
-    
                                            <li><a href="contact.html">Contact us</a></li>
-                                           <li><a href="index3.php">Our Store</a></li>
                                                                                           
                                        </ul>
                                    </nav>
@@ -217,7 +224,7 @@
             </div> 
         </header>
         <!--Header Area End-->		<!--Header Area End-->
- <section class="heading-banner-area pt-30">
+       <section class="heading-banner-area pt-30">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -225,145 +232,136 @@
                             <div class="breadcrumbs">
                                 <ul>
                                     <li><a href="#">Home</a><span class="breadcome-separator">></span></li>
-                                    <li>Login</li>
+                                    <li>About Us</li>
                                 </ul>
                             </div>
                             <div class="heading-banner-title">
-                                <h1>Login</h1>
+                                <h1>About Us</h1>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-	<section class="contact-form-area mt-20">
+        <!--Heading Banner Area End-->
+        <!--Aboout Us Area Start-->
+        <!--About Us Image Start-->
+
+        <!--About Us Image End-->
         <div class="container">
-            <div class="row">
-                    <!--Contact Form Start-->
-                <div class="col-md-7">
-                    <div class="contact-form-title">
-                        <h2></h2>
-                    </div>
-      <section>              
-<div class="contact-form">
-
-<div id = "frm">  
-      
-        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
-            <p>  
-                <label> UserName: </label>  
-                <input type = "text" id ="user" name  = "user" />  
-            </p>  
-            <p>  
-                <label> Password: </label>  
-                <input type = "password" id ="pass" name  = "pass" />  
-            </p>  
-            <p>     
-                <input type =  "submit" id = "btn" value = "Login"class="submit-button" />  
-            </p>  
-        </form>  
-    </div>  
-</div>	
-    <script>  
-            function validation()  
-            {  
-                var id=document.f1.user.value;  
-                var ps=document.f1.pass.value;  
-                if(id.length=="" && ps.length=="") {  
-                    alert("User Name and Password fields are empty");  
-                    return false;  
-                }  
-                else  
-                {  
-                    if(id.length=="") {  
-                        alert("User Name is empty");  
-                        return false;  
-                    }   
-                    if (ps.length=="") {  
-                    alert("Password field is empty");  
-                    return false;  
-                    }  
-                }                             
-            }  
-        </script>  
-</div>
-
-        
-	</section>
-	            <!--Contact Form End-->
-    
-    <!--Modal Start-->
-<div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-        <!-- Modal Content Strat-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <!--About Us Content Start-->
+            <div class="about-us-title text-center">
+                <h2><strong>Welcome to Project P2</strong> <br><strong>Organic Food and Farming</strong></h2>
             </div>
-            <div class="modal-body">
-                <div class="modal-details">
-                    <div class="row">
-                        <!--Product Img Strat-->
-                        <div class="col-md-5 col-sm-5">
-                            <!--Product Tab Content Start-->
-                            <div class="tab-content">
-                                <div id="watch1" class="tab-pane fade in active">
-                                    <div class="modal-img img-full">
-                                        <img src="img/single-product/large/1.jpg" alt="">
-                                    </div>
-                                </div>
-                               
-                            </div>
-                            <!--Product Tab Content End-->
-                            
-                        </div>
-                        <!--Product Img End-->
-                        <!-- Product Content Start-->
-                        <div class="col-md-7 col-sm-7">
-                            <div class="product-info">
-                                <h2 class="title"></h2>
-                                <div class="product-price">
-                                    <span class="old-price"></span>
-                                    <span class="new-price"></span>
-                                </div>
-                                <a href="#" class="see-all">See all features</a>
-                                <div class="add-to-cart quantity">
-                                    <form class="add-quantity" method="POST" action="http://himvalue.com/cart/add">
-                                        <div class="quantity modal-quantity">
-                                            <label>Quantity</label>
-                                            <input type="number" name="quantity" value="1">
-                                            <input type="hidden" name="product" id="product">
-                                        </div>
-                                        <div class="add-to-link">
-                                            <button class="form-button" data-text="add to cart">add to cart</button>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="cart-description">
-                                    <p></p>
-                                </div>
-                                <div class="social-share">
-                                    <h3>Share this product</h3>
-                                    <ul class="socil-icon2">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Product Content End-->
-                    </div>
+            <p>We have managed to cross numerous milestones. Being one of the rare companies in the Uttarakhand
+                that deals with 100% organic Category 2, Category 4 and grocery. Our service of farming and selling
+                organic Category 2 and Category 4 extends to Uttarakhand while we sell organic grocery expanded in PAN
+                India. Being a company that is in Business to consumer modal, our constant aim is to satisfy our
+                esteemed customers exceptionally good service.</p>
+          
+		<!--Slider Area Start-->
+        <section class="slider-area ">
+            <div class="slider-wrapper theme-default">
+                <!--Slider Background Image Start-->
+                <div id="slider" class="nivoSlider">
+                    <img id="img1" src="img/about/slider-1.jpg" alt="" title="#htmlcaption" />
+                    <img id="img2" src="img/about/slider-2.jpg" alt="" title="#htmlcaption2" />
+                    <img id="img3" src="img/about/slider-4.jpg" alt="" title="#htmlcaption3" />
                 </div>
             </div>
+        </section>
+        <!--Slider Area End-->
+		
+            <div class="about-us-btn text-center">
+                <a href="#" class="button2">view Products </a>
+            </div>
+            <!--About Us Content End-->
         </div>
-        <!--Modal Content Strat-->
-    </div>
-</div>
-<!--Modal End-->   
- <!--Footer Area Start-->
+
+        <section class="service-item-area mt-20">
+
+            <div class="container">
+                <div class="row">
+                    <!--Single Service Item Start-->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single-service-item">
+                            <div class="service-img img-full mb-35">
+
+                                <img src="img/service/mission.png" alt="">
+                            </div>
+                            <div class="service-content">
+                                <div class="service-title">
+                                    <h2><b>Mission</b></h2>
+                                </div>
+                                <p>We aim towards making the organic food available to those who wish to keep
+                                    their health healthy. Apart from customer satisfaction, we also strive to sustain
+                                    the environment and hence we believe that promoting organic food is not only our
+                                    business but also rightful duty.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Single Service Item End-->
+                    <!--Single Service Item Start-->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single-service-item">
+                            <div class="service-img img-full mb-35">
+                                <img src="img/service/vision.png" alt="">
+                            </div>
+                            <div class="service-content">
+                                <div class="service-title">
+                                    <h2><b> Vision </b></h2>
+                                </div>
+                                <p>We believe in growth and hence our only vision is to do better than the last
+                                    day. Whether it is our products, service, performance, relations with clients or
+                                    employees; we seek for growth and our promises.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Single Service Item End-->
+
+                </div>
+            </div>
+        </section>
+        <!--Unlimited Ideas Area Start-->
+        <section class="unlimited-ideas-area">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <!--Unlimited Ideas Content Start-->
+                    <div class="backg">
+
+
+                        <div class="col-12">
+
+                            <div class="unlimited-ideas-content">
+                                <div class="unlimited-ideas-title">
+                                    <h1><b>Organic Farming in Uttarakhand</b></h2>
+                                </div>
+                                <div class="unlimited-ideas-description mtb-60">
+                                    <p> Organic farming is a form of agriculture that relies on techniques such
+                                        as crop rotation, green manure, compost, and biological pest control. Depending
+                                        on whose definition is used, organic farming uses fertilizers and pesticides
+                                        (which include herbicides, insecticides, and fungicides) if they are considered
+                                        natural (such as bone meal from animals or pyrethrin from flowers), but it
+                                        excludes or strictly limits the use of various methods (including synthetic
+                                        petrochemical fertilizers and pesticides; plant growth regulators such as
+                                        hormones; antibiotic use in livestock; genetically modified organisms; human
+                                        sewage sludge; and nanomaterials.) for reasons including sustainability,
+                                        openness, independence, health, and safety.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--Unlimited Ideas Area End-->
+        <!--Footer Area Start-->
         <footer>
             <div class="footer-container bg-3">
                 <!--Footer Top Area Start-->
@@ -375,22 +373,24 @@
                                 <div class="single-footer">
                                     <!--Footer Logo Start-->
                                     <div class="footer-logo">
-                                        <a href="index-2.html"><img src="img/footer-logo.png" width="33%" alt=""></a>
+                                        <a href="index-2.html"><img src="img/footer-logo.png" width="33%"
+                                                alt=""></a>
                                     </div>
                                     <!--Footer Logo End-->
                                     <!--Footer Content Start-->
                                     <div class="footer-content">
                                         <p class="text-dark"><strong>Project P2</strong></p>
                                         <div class="contact">
-                                            <p>Project By Team </p><br/>
-                                          
+                                            <p>Project By Team </p><br />
+
                                         </div>
                                     </div>
-                                         
-                                    </div>
-                                    <!--Footer Content End-->
+
+
                                 </div>
-                         
+                                <!--Footer Content End-->
+                            </div>
+
                             <!--Single Footer End-->
                             <!--Single Footer Start-->
                             <div class="col-md-2 col-sm-6">
@@ -403,8 +403,8 @@
                                         <li><a href="#">About Us</a></li>
                                         <li><a href="#">Near By Attraction</a></li>
                                         <li><a href="#">Contact</a></li>
-                                     
-                                       
+
+
                                     </ul>
                                 </div>
                             </div>
@@ -416,10 +416,10 @@
                                     <ul class="footer-info">
                                         <li><a href="#">Home</a></li>
                                         <li><a href="#">About Us</a></li>
-                                      <li><a href="#">Near By Attraction</a></li>
+                                        <li><a href="#">Near By Attraction</a></li>
                                         <li><a href="#">Contact</a></li>
-                                      
-                                       
+
+
                                     </ul>
                                 </div>
                             </div>
@@ -440,18 +440,20 @@
                                     </ul>
                                 </div>
                             </div>
-                             --><!--Single Footer End-->
+                             -->
+                            <!--Single Footer End-->
                             <!--Single Footer Start-->
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
-                                      <h3>ADDRESS</h3>
-                                    <p>Jaipur, Rajasthan<br/> India, Pin- 302033 </p>    
-                                     <p><label>Phone:</label> +91-9462642837</p>
-                                    <p><label>Email:</label>hupadhyay1005@gmail.com</a></p>
+                                        <h3>ADDRESS</h3>
+                                   <p>Jaipur, Rajasthan<br/> India, Pin- 302033 </p>    
+                                        <p><label>Phone:</label> +91-9462642837</p>
+    
+                                        <p><label>Email:</label> hupadhyay1005@gmail.com</a></p>
                                     </div>
-                                    
-                                                   </div>
+
+                                </div>
                             </div>
                             <!--Single Footer End-->
                         </div>
@@ -465,91 +467,88 @@
                             <!--Footer Left Content Start-->
                             <div class="col-md-6 col-sm-6">
                                 <div class="copyright-text ">
-                                    <p>.</p>
+
+
                                 </div>
                             </div>
-<div class="col-md-6 col-sm-6" style="text-align: right;">
-                                  <ul class="socil-icon">
-                                        <li><a href="#" data-toggle="tooltip" title="Twitter"><i class="ion-social-twitter"></i></a></li>
-                                        <li><a href="#" data-toggle="tooltip" title="Facebook"><i class="ion-social-facebook"></i></a></li>
-                                        <li><a href="#" data-toggle="tooltip" title="Google Plus"><i class="ion-social-googleplus"></i></a></li>
-                                        <li><a href="#" data-toggle="tooltip" title="Youtube"><i class="ion-social-youtube"></i></a></li>
-                                        
-                                    </ul>
-</div>
+                            <div class="col-md-6 col-sm-6" style="text-align: right;">
+                                <ul class="socil-icon">
+                                    <li><a href="#" data-toggle="tooltip" title="Twitter"><i
+                                                class="ion-social-twitter"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Facebook"><i
+                                                class="ion-social-facebook"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Google Plus"><i
+                                                class="ion-social-googleplus"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Youtube"><i
+                                                class="ion-social-youtube"></i></a></li>
 
+                                </ul>
                             </div>
-                            <!--Footer Left Content End-->
-                                                
-                            <!--Footer Right Content End-->
+
                         </div>
+                        <!--Footer Left Content End-->
+
+                        <!--Footer Right Content End-->
                     </div>
-              
+                </div>
+
                 <!--Footer Bottom Area End-->
             </div>
         </footer>
         <!--Footer Area End-->
 
 
-    <!--All Js Here-->
-    
-    <!--Jquery 1.12.4-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <!--Imagesloaded-->
-    <script src="js/imagesloaded.pkgd.min.js"></script> 
-    <!--Isotope-->
-    <script src="js/isotope.pkgd.min.js"></script>       
-    <!--Ui js-->
-    <script src="js/jquery-ui.min.js"></script>       
-    <!--Countdown-->
-    <script src="js/jquery.countdown.min.js"></script>        
-    <!--Counterup-->
-    <script src="js/jquery.counterup.min.js"></script>       
-    <!--ScrollUp-->
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <!--Chosen js-->
-    <script src="js/chosen.jquery.js"></script>
-    <!--Meanmenu js-->
-    <script src="js/jquery.meanmenu.min.js"></script>
-    <!--Instafeed-->
-    <script src="js/instafeed.min.js"></script> 
-    <!--EasyZoom-->
-    <script src="js/easyzoom.min.js"></script> 
-    <!--Fancybox-->
-    <script src="js/jquery.fancybox.pack.js"></script>       
-    <!--Nivo Slider-->
-    <script src="js/jquery.nivo.slider.js"></script>
-    <!--Waypoints-->
-    <script src="js/waypoints.min.js"></script>
-    <!--Carousel-->
-    <script src="js/owl.carousel.min.js"></script>
-    <!--Slick-->
-    <script src="js/slick.min.js"></script>
-    <!--Wow-->
-    <script src="js/wow.min.js"></script>
-    <!--Bootstrap-->
-    <script src="js/bootstrap.min.js"></script>
-    <!--Plugins-->
-    <script src="js/plugins.js"></script>
-    <!--Main Js-->
-    <script src="js/main.js"></script><script type="text/javascript">
-    $(".productinfo").click(function(event) {
-        $("#myModal .title").text($(this).attr('data-name'));
-        $("#myModal #watch1 img").attr('src',$(this).attr('data-img'));
-        $("#myModal .see-all").attr('href',$(this).attr('data-url'));
-        $("#myModal .cart-description p").text($(this).attr('data-detail'));
-        $("#myModal #product").val($(this).attr('data-id'));
-        var discount= parseInt($(this).attr('data-discount'));
-        if (discount > 0) {
-            $("#myModal .product-price .old-price").text("Rs "+$(this).attr('data-oldprice')+"/-");
-            $("#myModal .product-price .new-price").text("Rs "+$(this).attr('data-newprice')+"/-");
-        }else{
-           $("#myModal .product-price .old-price").remove();
-           $("#myModal .product-price .new-price").text("Rs "+$(this).attr('data-newprice')+"/-");
-        }
-        $("#myModal").modal("show");
-    });
-</script>
-</body> 
+        <!--All Js Here-->
+
+        <!--Jquery 1.12.4-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <!--Imagesloaded-->
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <!--Isotope-->
+        <script src="js/isotope.pkgd.min.js"></script>
+        <!--Ui js-->
+        <script src="js/jquery-ui.min.js"></script>
+        <!--Countdown-->
+        <script src="js/jquery.countdown.min.js"></script>
+        <!--Counterup-->
+        <script src="js/jquery.counterup.min.js"></script>
+        <!--ScrollUp-->
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <!--Chosen js-->
+        <script src="js/chosen.jquery.js"></script>
+        <!--Meanmenu js-->
+        <script src="js/jquery.meanmenu.min.js"></script>
+        <!--Instafeed-->
+        <script src="js/instafeed.min.js"></script>
+        <!--EasyZoom-->
+        <script src="js/easyzoom.min.js"></script>
+        <!--Fancybox-->
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <!--Nivo Slider-->
+        <script src="js/jquery.nivo.slider.js"></script>
+        <!--Waypoints-->
+        <script src="js/waypoints.min.js"></script>
+        <!--Carousel-->
+        <script src="js/owl.carousel.min.js"></script>
+        <!--Slick-->
+        <script src="js/slick.min.js"></script>
+        <!--Wow-->
+        <script src="js/wow.min.js"></script>
+        <!--Bootstrap-->
+        <script src="js/bootstrap.min.js"></script>
+        <!--Plugins-->
+        <script src="js/plugins.js"></script>
+        <!--Main Js-->
+        <script src="js/main.js"></script>
+</body>
 
 </html>

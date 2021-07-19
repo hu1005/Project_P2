@@ -86,6 +86,7 @@
                                    <ul>
                                        <li>
                                           <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
+                                          <i class="fa fa-envelope-o"> patidarakshay999@gmail.com | </i><i class="fa fa-phone"> +91-9521263447 </i>
                                        </li>
                                    </ul>
                                </div>
@@ -123,11 +124,7 @@
                            <!--Mini Cart Start-->
                            <div class="col-md-3 col-sm-4 col-xs-8">
                                <div class="mini-cart-area">
-                                   <ul>
-                                       <li>
-                                                                                  <a href="mycart.php"><i class="ion-android-cart"></i><span class="cart-add">0</span><span class="cart-total">Rs 0/- </a>
-                                                                               </li>
-                                   </ul>
+                                   
                                </div>
                            </div>
                            <!--Mini Cart End-->
@@ -147,7 +144,7 @@
 
                                    <nav>
                                        <ul class="main-menu">
-                                          <li id="home" class="active" ><a href="index.html">Home</a></li>
+                                          <li id="home" class="active" ><a href="index.php">Home</a></li>
                                           
                                                                                                                                        
 											 <li><a href = #>Our Products<span class="caret"></span></a>
@@ -161,9 +158,8 @@
 											   
 											   </li>
                                                                                             
-                                            <li ><a href="about.html" >About Us</a></li>
-                                            <li><a href="near-by-attraction.html">Near By Attraction</a></li>
-                                            <li><a href="description.html">Description</a></li>
+                                            <li ><a href="about.php" >About Us</a></li>
+                                            <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                            <li><a href="contact.html">Contact us</a></li>
                                            <li><a href="index3.php">Our Store</a></li>
                                                                                           
@@ -184,7 +180,7 @@
                                <div class="mobile-menu">
                                                                       <nav>
                                        <ul class="main-menu">
-                                          <li id="home" class="active" ><a href="index.html">Home</a></li>
+                                          <li id="home" class="active" ><a href="index.php">Home</a></li>
                                           
                                                                                                                                        
 											 <li><a href = #>Our Products<span class="caret"></span></a>
@@ -198,9 +194,8 @@
 											   
 											   </li>
                                                                                             
-                                            <li ><a href="about.html" >About Us</a></li>
-                                            <li><a href="near-by-attraction.html">Near By Attraction</a></li>
-                                            <li><a href="description.html">Description</a></li>
+                                            <li ><a href="about.php" >About Us</a></li>
+                                            <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                            <li><a href="contact.html">Contact us</a></li>
                                            <li><a href="index3.php">Our Store</a></li>
                                                                                           
@@ -311,7 +306,7 @@
                     We regret for the unavoidable inconvenience and request your understanding as our employees are on
                     the battlefield like frontline warriors still trying to serve your needs better!
                 </p>
-                <a class="btn btn-primary btn-lg" href="about.html" role="button">About Us</a>
+                <a class="btn btn-primary btn-lg" href="about.php" role="button">About Us</a>
             </div>
         </div>
         <!--Slider Area End-->
@@ -1114,7 +1109,7 @@
                                 <div class="single-footer">
                                     <!--Footer Logo Start-->
                                     <div class="footer-logo">
-                                        <a href="index-2.html"><img src="img/footer-logo.png" width="33%" alt=""></a>
+                                        <a href="index.php"><img src="img/footer-logo.png" width="33%" alt=""></a>
                                     </div>
                                     <!--Footer Logo End-->
                                     <!--Footer Content Start-->
@@ -1138,10 +1133,12 @@
                                         <h3>information</h3>
                                     </div>
                                     <ul class="footer-info">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Near By Attraction</a></li>
+                                    
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">About Us</a></li>
+                                      <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                         <li><a href="#">Contact</a></li>
+                                      
                                      
                                        
                                     </ul>
@@ -1153,9 +1150,9 @@
                                         <h3>information</h3>
                                     </div>
                                     <ul class="footer-info">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                      <li><a href="#">Near By Attraction</a></li>
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">About Us</a></li>
+                                      <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                         <li><a href="#">Contact</a></li>
                                       
                                        

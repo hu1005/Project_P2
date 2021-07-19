@@ -89,7 +89,8 @@
                                    <ul>
                                        <li>
                                           <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
-                                       </li>
+                                          
+                                        </li>
                                    </ul>
                                </div>
                            </div>
@@ -126,12 +127,11 @@
                             <!--Mini Cart Start-->
                             <div class="col-md-3 col-sm-4 col-xs-8">
                                 <div class="mini-cart-area">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="ion-android-cart"></i><span
-                                                    class="cart-add">0</span><span class="cart-total">Rs 0/- </a>
-                                        </li>
-                                    </ul>
+                                <ul>
+                                       <li>
+                                                                                  <a href="mycart.php"><i class="ion-android-cart"></i><span class="cart-add"></span><span class="cart-total"> </a>
+                                                                               </li>
+                                   </ul>
                                 </div>
                             </div>
                             <!--Mini Cart End-->
@@ -149,7 +149,7 @@
                                 <div class="main-menu-area">
                                     <nav>
                                         <ul class="main-menu">
-                                            <li id="home"><a href="index.html">Home</a></li>
+                                            <li id="home"><a href="index.php">Home</a></li>
 
 
                                             <li><a href=#>Our Products<span class="caret"></span></a>
@@ -164,11 +164,11 @@
 
                                             </li>
 
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li class="active"><a href="near-by-attraction.html">Near By Attraction</a>
+                                            <li><a href="about.php">About Us</a></li>
+                                            <li class="active"><a href="near-by-attraction.php">Near By Attraction</a>
                                             </li>
 
-                                            <li><a href="description.html">Description</a></li>
+                                            
     
                                             <li><a href="contact.html">Contact us</a></li>
                                             <li><a href="index3.php">Our Store</a></li>
@@ -191,7 +191,7 @@
                                 <div class="mobile-menu">
                                     <nav>
                                         <ul class="main-menu">
-                                            <li id="home"><a href="index.html">Home</a></li>
+                                            <li id="home"><a href="index.php">Home</a></li>
 
 
                                             <li><a href=#>Our Products<span class="caret"></span></a>
@@ -206,11 +206,11 @@
 
                                             </li>
 
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li class="active"><a href="near-by-attraction.html">Near By Attraction</a>
+                                            <li><a href="about.php">About Us</a></li>
+                                            <li class="active"><a href="near-by-attraction.php">Near By Attraction</a>
                                             </li>
 
-                                            <li><a href="description.html">Description</a></li>
+                                            
     
                                             <li><a href="contact.html">Contact us</a></li>
                                             <li><a href="index3.php">Our Store</a></li>
