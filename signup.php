@@ -1,13 +1,16 @@
 
 <?php 
+//connection to the db
     include('connection.php');  
-    $name = $_POST['name'];  
+	
+//getting values from the html form 
+ $name = $_POST['name'];  
 	 $email = $_POST['email'];  
     $phone = $_POST['phone']; 
     $password = $_POST['password'];  
 
 		
-// database insert SQL code
+// database insert SQL query
 $sql = "INSERT INTO signup VALUES ('$name', '$email', '$phone', '$password')";
 
 // insert in database 

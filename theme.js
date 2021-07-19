@@ -1,3 +1,7 @@
+//theme toggle function for index folder pages
+
+
+
 function toggleTheme() {
 		
             var theme = document.getElementsByTagName('link')[1];
