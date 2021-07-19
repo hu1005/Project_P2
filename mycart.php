@@ -92,19 +92,22 @@ include("header3.php");
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
-                                Pay via UPI
+                                Online Payment
+								
+                        <button type="button" class="btn btn-link">
+                        <a href="checkout1.html">Make Purchase</a>       
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                             <label class="form-check-label" for="flexRadioDefault2">
                                 Cash On Delivery
+								
+                        <button type="button" class="btn btn-link">
+                        <a href="checkout.html">Make Purchase</a>       
                             </label>
                         </div>
-                        <br>
-
-                        <button type="button" class="btn btn-link">
-                        <a href="checkout1.html">Make Purchase</a>        
+                        <br>   
                     </button>
                         
                             
@@ -223,10 +226,9 @@ include("header3.php");
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
                                         <h3>ADDRESS</h3>
-                                        <p>Kotabagh, Nainital, Uttarakhand<br /> India, Pin- 263159 </p>
-                                        <p><label>Phone:</label> +91-7248383768</p>
-                                        <p><label>Phone:</label> +91-7300859006</p>
-                                        <p><label>Email:</label> info@himvalue.com</a></p>
+                                   <p>Jaipur, Rajasthan<br/> India, Pin- 302033 </p>    
+                                        <p><label>Phone:</label> +91-9462642837</p>
+                                        <p><label>Email:</label> hupadhyay1005@gmail.com</a></p>
                                     </div>
 
                                 </div>
@@ -243,9 +245,7 @@ include("header3.php");
                             <!--Footer Left Content Start-->
                             <div class="col-md-6 col-sm-6">
                                 <div class="copyright-text ">
-                                    <p>Copyright © 2018-2019 <a href="https://acewebcreations.com/"
-                                            target="_blank">Aceweb Creations</a>, All Rights Reserved.</p>
-                                </div>
+                                    
                             </div>
                             <div class="col-md-6 col-sm-6" style="text-align: right;">
                                 <ul class="socil-icon">
