@@ -19,37 +19,37 @@
 	
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Place favicon.ico in the root directory -->
+    <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="__img/favicon.html">
-<!-- Ionicons Font CSS-->
+    <!-- Ionicons Font CSS-->
     <link rel="stylesheet" href="css/ionicons.min.css">
-<!-- font awesome CSS-->
+    <!-- font awesome CSS-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-<!-- Animate CSS-->
+    <!-- Animate CSS-->
     <link rel="stylesheet" href="css/animate.css">
-<!-- UI CSS-->
+    <!-- UI CSS-->
     <link rel="stylesheet" href="css/jquery-ui.min.css">
-<!-- Chosen CSS-->
+    <!-- Chosen CSS-->
     <link rel="stylesheet" href="css/chosen.css">
-<!-- Meanmenu CSS-->
+    <!-- Meanmenu CSS-->
     <link rel="stylesheet" href="css/meanmenu.min.css">
-<!-- Fancybox CSS-->
+    <!-- Fancybox CSS-->
     <link rel="stylesheet" href="css/jquery.fancybox.css">
-<!-- Normalize CSS-->
+    <!-- Normalize CSS-->
     <link rel="stylesheet" href="css/normalize.css">
-<!-- Nivo Slider CSS-->
+    <!-- Nivo Slider CSS-->
     <link rel="stylesheet" href="css/nivo-slider.css">
-<!-- Owl Carousel CSS-->
+    <!-- Owl Carousel CSS-->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-<!-- EasyZoom CSS-->
+    <!-- EasyZoom CSS-->
     <link rel="stylesheet" href="css/easyzoom.css">
-<!-- Slick CSS-->
+    <!-- Slick CSS-->
     <link rel="stylesheet" href="css/slick.css">
 
 
-<!-- Responsive CSS -->
+    <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
-<!-- Modernizr Js -->
+    <!-- Modernizr Js -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
@@ -68,7 +68,7 @@
 	   
                                  
     <div class="wrapper home-5">
-<!--Header Area Start-->
+        <!--Header Area Start-->
         <header>
 
            <div class="header-container">
@@ -76,16 +76,17 @@
 
 <button id="themetoggle" onclick="toggleTheme()">Switch Theme</button>
 
-<!--Header Top Area Start--> 
+               <!--Header Top Area Start--> 
               <div class="header-top-area">
                    <div class="container">
                        <div class="row">
-<!--Header Top Left Area Start-->
+ <!--Header Top Left Area Start-->
                             <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
                                <div class="header-top-menu">
                                    <ul>
                                        <li>
                                           <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
+                                          <i class="fa fa-envelope-o"> patidarakshay999@gmail.com | </i><i class="fa fa-phone"> +91-9521263447 </i>
                                        </li>
                                    </ul>
                                </div>
@@ -96,7 +97,7 @@
                                    
                                </div>
                            </div>		
-<!--Header Top Right Area Start-->
+						    <!--Header Top Right Area Start-->
                            <div class="col-md-8 col-sm-8 hidden-xs text-right">
                                <div class="header-top-menu">
                                    <ul>
@@ -105,49 +106,45 @@
                                    </ul>
                                </div>
                            </div>
-<!--Header Top Right Area End-->
-<!--Header Top Area End-->
-<!--Header Middel Area Start-->
+                           <!--Header Top Right Area End-->
+               <!--Header Top Area End-->
+               <!--Header Middel Area Start-->
                <div class="header-middel-area">
                    <div class="container">
                        <div class="row">
-<!--Logo Start-->
+                           <!--Logo Start-->
                            <div class="col-md-9 col-sm-9 col-xs-4">
                                <div class="logo">
                                    <a href="#"><img src="img/himvalue-logo.png" width="14%" class="logo-img"
                                     alt=""></a>
                                </div>
                            </div>
-<!--Logo End-->
+                           <!--Logo End-->
                           
-<!--Mini Cart Start-->
+                           <!--Mini Cart Start-->
                            <div class="col-md-3 col-sm-4 col-xs-8">
                                <div class="mini-cart-area">
-                                   <ul>
-                                       <li>
-                                                                                  <a href="mycart.php"><i class="ion-android-cart"></i><span class="cart-add">0</span><span class="cart-total">Rs 0/- </a>
-                                                                               </li>
-                                   </ul>
+                                   
                                </div>
                            </div>
-<!--Mini Cart End-->
+                           <!--Mini Cart End-->
                        </div>
                    </div>
                </div>
-<!--Header Middel Area End-->
-<!--Header bottom Area Start-->
+               <!--Header Middel Area End-->
+               <!--Header bottom Area Start-->
                <div class="header-bottom-area header-sticky">
                    <div class="container">
                        <div class="row">
                            <div class="col-md-12">
                                
-<!--Main Menu Area Start-->
+                               <!--Main Menu Area Start-->
                                <div class="main-menu-area">
 
 
                                    <nav>
                                        <ul class="main-menu">
-                                          <li id="home" class="active" ><a href="index.html">Home</a></li>
+                                          <li id="home" class="active" ><a href="index.php">Home</a></li>
                                           
                                                                                                                                        
 											 <li><a href = #>Our Products<span class="caret"></span></a>
@@ -161,22 +158,21 @@
 											   
 											   </li>
                                                                                             
-                                            <li ><a href="about.html" >About Us</a></li>
-                                            <li><a href="near-by-attraction.html">Near By Attraction</a></li>
-                                            <li><a href="description.html">Description</a></li>
+                                            <li ><a href="about.php" >About Us</a></li>
+                                            <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                            <li><a href="contact.html">Contact us</a></li>
                                            <li><a href="index3.php">Our Store</a></li>
                                                                                           
                                        </ul>
                                    </nav>
                                </div>
-<!--Main Menu Area End-->
+                               <!--Main Menu Area End-->
                            </div>
                        </div>
                    </div>
                </div>
-<!--Header bottom Area End-->
-<!--Mobile Menu Area Start-->
+               <!--Header bottom Area End-->
+               <!--Mobile Menu Area Start-->
                <div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
                    <div class="container">
                        <div class="row">
@@ -184,7 +180,7 @@
                                <div class="mobile-menu">
                                                                       <nav>
                                        <ul class="main-menu">
-                                          <li id="home" class="active" ><a href="index.html">Home</a></li>
+                                          <li id="home" class="active" ><a href="index.php">Home</a></li>
                                           
                                                                                                                                        
 											 <li><a href = #>Our Products<span class="caret"></span></a>
@@ -198,9 +194,8 @@
 											   
 											   </li>
                                                                                             
-                                            <li ><a href="about.html" >About Us</a></li>
-                                            <li><a href="near-by-attraction.html">Near By Attraction</a></li>
-                                            <li><a href="description.html">Description</a></li>
+                                            <li ><a href="about.php" >About Us</a></li>
+                                            <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                            <li><a href="contact.html">Contact us</a></li>
                                            <li><a href="index3.php">Our Store</a></li>
                                                                                           
@@ -211,68 +206,65 @@
                        </div>
                    </div>
                 </div>
-<!--Mobile Menu Area End--> 
+               <!--Mobile Menu Area End--> 
             </div> 
         </header>
-<!--Header Area End-->
+        <!--Header Area End-->		<!--Header Area End-->
 		
 		<!--Slider Area Start-->
         <section class="slider-area ">
             <div class="slider-wrapper theme-default">
-<!--Slider Background Image Start-->
+                <!--Slider Background Image Start-->
                 <div id="slider" class="nivoSlider">
                     <img src="img/slider/slider-1.jpg" alt="" title="#htmlcaption" />
                     <img src="img/slider/slider-2.jpg" alt="" title="#htmlcaption2" />
                     <img src="img/slider/slider-4.jpg" alt="" title="#htmlcaption3" />
                 </div>
-<!--Slider Background Image End-->
-<!--1st Slider Caption Start-->
+                <!--Slider Background Image End-->
+                <!--1st Slider Caption Start-->
                 <div id="htmlcaption" class="nivo-html-caption">
                     <div class="slider-caption">
                         <div class="slider-text">
                             <h5 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Start Exploring our products</h5>
                             <h1 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">--Text here--  <br><span> </span></h1>
-<!--<h4 class="wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">Starting at <span>$560.99</span></h4>-->
+                            <!--<h4 class="wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">Starting at <span>$560.99</span></h4>-->
                             <div class="slider-button">
                                 <a href="#" class="wow button animated fadeInLeft" data-text="Shop now" data-wow-duration="2.5s" data-wow-delay="0.5s">Start Shopping Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
-<!--1st Slider Caption End-->
-<!--2nd Slider Caption Start-->
+                <!--1st Slider Caption End-->
+                <!--2nd Slider Caption Start-->
                 <div id="htmlcaption2" class="nivo-html-caption">
                     <div class="slider-caption">
                         <div class="slider-text">
                             <h5 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Start Exploring our products</h5>
                             <h1 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">--Text here--  <br><span> </span></h1>
-<!--<h4 class="wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">Starting at <span>$560.99</span></h4>-->
+                            <!--<h4 class="wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">Starting at <span>$560.99</span></h4>-->
                             <div class="slider-button">
                                 <a href="#" class="wow button animated fadeInLeft" data-text="Shop now" data-wow-duration="2.5s" data-wow-delay="0.5s">Start Shopping Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
-<!--2nd Slider Caption End-->
-<!--3rd Slider Caption Start-->
+                <!--2nd Slider Caption End-->
+                <!--3rd Slider Caption Start-->
                 <div id="htmlcaption3" class="nivo-html-caption">
                     <div class="slider-caption">
                         <div class="slider-text">
                             <h5 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Start Exploring our products</h5>
                             <h1 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">--Text here--  <br><span> </span></h1>
-<!--<h4 class="wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">Starting at <span>$560.99</span></h4>-->
+                            <!--<h4 class="wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">Starting at <span>$560.99</span></h4>-->
                             <div class="slider-button">
                                 <a href="#" class="wow button animated fadeInLeft" data-text="Shop now" data-wow-duration="2.5s" data-wow-delay="0.5s">Start Shopping Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
-<!--3rd Slider Caption End-->
+                <!--3rd Slider Caption End-->
             </div>
         </section>
-<<<<<<< HEAD
-<!--Slider Area End-->
-=======
         <div class="text-top hidden-xs">
             <div class="marquee-main">
 
@@ -314,11 +306,10 @@
                     We regret for the unavoidable inconvenience and request your understanding as our employees are on
                     the battlefield like frontline warriors still trying to serve your needs better!
                 </p>
-                <a class="btn btn-primary btn-lg" href="about.html" role="button">About Us</a>
+                <a class="btn btn-primary btn-lg" href="about.php" role="button">About Us</a>
             </div>
         </div>
         <!--Slider Area End-->
->>>>>>> 7901b54f81a3a636fad5ea77d66e20f9acc04a1c
 		<!--Corporate About Start-->
         <section class="corporate-about white-bg pt-20">
             <div class="container">
@@ -479,28 +470,28 @@
 
 
 
-<!--Bestseller Product Start-->
+ <!--Bestseller Product Start-->
                                         
         <section class="bestseller-product mb-55">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-<!--Section Title1 Start-->
+                        <!--Section Title1 Start-->
                         <div class="section-title1-border">
                             <div class="section-title1">
                                 <h3>Category 1 and 2</h3>
                             </div>
                         </div>
-<!--Section Title1 End-->
+                        <!--Section Title1 End-->
                     </div>
                 </div>
 
-<!--Product Tab Start-->
+                <!--Product Tab Start-->
                 <div class="tab-content">
                     <div id="fresh-produce" class="tab-pane fade in active">
                         <div class="row">
                             <div class="bestseller-category3 mb-30  owl-carousel">
-<!--Single Product Start-->
+                                <!--Single Product Start-->
                                                                  <div class="col-md-12 item-col">
                                     <div class="single-product">
                                         <div class="product-img" style="min-height: 210px;min-height: 210px;">
@@ -630,38 +621,38 @@
                                     </div>
                                 </div>
  
-          <!----Single Product End-->
+                                                                <!--Single Product End-->
                             </div>
                         </div>
                     </div>
                    
                 </div>
-<!--Product Tab End-->
+                <!--Product Tab End-->
             </div>
         </section>
-<!--Bestseller Product End-->
+        <!--Bestseller Product End-->
 
                                                      
         <section class="bestseller-product mb-55">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-<!--Section Title1 Start-->
+                        <!--Section Title1 Start-->
                         <div class="section-title1-border">
                             <div class="section-title1">
                                 <h3>Category 3 and 4</h3>
                             </div>
                         </div>
-<!--Section Title1 End-->
+                        <!--Section Title1 End-->
                     </div>
                 </div>
 
-<!--Product Tab Start-->
+                <!--Product Tab Start-->
                 <div class="tab-content">
                     <div id="Category 1" class="tab-pane fade in active">
                         <div class="row">
                             <div class="bestseller-category3 mb-30  owl-carousel">
-<!--Single Product Start-->
+                                <!--Single Product Start-->
                                                                                                    <div class="col-md-12 item-col">
                                     <div class="single-product">
                                         <div class="product-img" style="min-height: 210px;min-height: 210px;">
@@ -843,38 +834,38 @@
                                     </div>
                                 </div>
                                                         
-          <!----Single Product End-->
+                                                                <!--Single Product End-->
                             </div>
                         </div>
                     </div>
                    
                 </div>
-<!--Product Tab End-->
+                <!--Product Tab End-->
             </div>
         </section>
-<!--Bestseller Product End-->
+        <!--Bestseller Product End-->
 
                              
             <section class="bestseller-product mb-55">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-<!--Section Title1 Start-->
+                        <!--Section Title1 Start-->
                         <div class="section-title1-border">
                             <div class="section-title1">
                                 <h3>Featured Products</h3>
                             </div>
                         </div>
-<!--Section Title1 End-->
+                        <!--Section Title1 End-->
                     </div>
                 </div>
 
-<!--Product Tab Start-->
+                <!--Product Tab Start-->
                 <div class="tab-content">
                     <div id="featured" class="tab-pane fade in active">
                         <div class="row">
                             <div class="bestseller-category3 mb-30  owl-carousel">
-<!--Single Product Start-->
+                                <!--Single Product Start-->
                                                                 <div class="col-md-12 item-col">
                                     <div class="single-product">
                                         <div class="product-img" style="min-height: 210px;min-height: 210px;">
@@ -1025,19 +1016,19 @@
                                         </div>
                                     </div>
                                 </div>
-          <!----Single Product End-->
+                                                                <!--Single Product End-->
                             </div>
                         </div>
                     </div>
                    
                 </div>
-<!--Product Tab End-->
+                <!--Product Tab End-->
             </div>
         </section>
-<!--Modal Start-->
+    <!--Modal Start-->
 <div id="myModal" class="modal fade" role="dialog">
     <div class="modal-dialog">
-<!-- Modal Content Strat-->
+        <!-- Modal Content Strat-->
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -1045,9 +1036,9 @@
             <div class="modal-body">
                 <div class="modal-details">
                     <div class="row">
-<!--Product Img Strat-->
+                        <!--Product Img Strat-->
                         <div class="col-md-5 col-sm-5">
-<!--Product Tab Content Start-->
+                            <!--Product Tab Content Start-->
                             <div class="tab-content">
                                 <div id="watch1" class="tab-pane fade in active">
                                     <div class="modal-img img-full">
@@ -1056,11 +1047,11 @@
                                 </div>
                                
                             </div>
-<!--Product Tab Content End-->
+                            <!--Product Tab Content End-->
                             
                         </div>
-<!--Product Img End-->
-<!-- Product Content Start-->
+                        <!--Product Img End-->
+                        <!-- Product Content Start-->
                         <div class="col-md-7 col-sm-7">
                             <div class="product-info">
                                 <h2 class="title"></h2>
@@ -1096,32 +1087,32 @@
                                 </div>
                             </div>
                         </div>
-<!--Product Content End-->
+                        <!--Product Content End-->
                     </div>
                 </div>
             </div>
         </div>
-<!--Modal Content Strat-->
+        <!--Modal Content Strat-->
     </div>
 </div>
 <!--Modal End-->  
   
-<!--Footer Area Start-->
+ <!--Footer Area Start-->
         <footer>
             <div class="footer-container bg-3">
-<!--Footer Top Area Start-->
+                <!--Footer Top Area Start-->
                 <div class="footer-top-area ptb-50">
                     <div class="container">
                         <div class="row">
-<!--Single Footer Start-->
+                            <!--Single Footer Start-->
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-footer">
-<!--Footer Logo Start-->
+                                    <!--Footer Logo Start-->
                                     <div class="footer-logo">
-                                        <a href="index-2.html"><img src="img/footer-logo.png" width="33%" alt=""></a>
+                                        <a href="index.php"><img src="img/footer-logo.png" width="33%" alt=""></a>
                                     </div>
-<!--Footer Logo End-->
-<!--Footer Content Start-->
+                                    <!--Footer Logo End-->
+                                    <!--Footer Content Start-->
                                     <div class="footer-content">
                                         <p class="text-dark"><strong>Project P2</strong></p>
                                         <div class="contact">
@@ -1131,21 +1122,23 @@
                                     </div>
                                          
                                     </div>
-<!--Footer Content End-->
+                                    <!--Footer Content End-->
                                 </div>
                          
-<!--Single Footer End-->
-<!--Single Footer Start-->
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
                             <div class="col-md-2 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
                                         <h3>information</h3>
                                     </div>
                                     <ul class="footer-info">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Near By Attraction</a></li>
+                                    
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">About Us</a></li>
+                                      <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                         <li><a href="#">Contact</a></li>
+                                      
                                      
                                        
                                     </ul>
@@ -1157,18 +1150,18 @@
                                         <h3>information</h3>
                                     </div>
                                     <ul class="footer-info">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                      <li><a href="#">Near By Attraction</a></li>
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">About Us</a></li>
+                                      <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                         <li><a href="#">Contact</a></li>
                                       
                                        
                                     </ul>
                                 </div>
                             </div>
-<!--Single Footer End-->
-<!--Single Footer Start-->
-<!-- <div class="col-md-2 col-sm-6">
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
+                            <!-- <div class="col-md-2 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
                                         <h3>My Account</h3>
@@ -1183,8 +1176,8 @@
                                     </ul>
                                 </div>
                             </div>
-                 <!--Single Footer End-->
-<!--Single Footer Start-->
+                             --><!--Single Footer End-->
+                            <!--Single Footer Start-->
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
@@ -1196,18 +1189,18 @@
                                     
                                                    </div>
                             </div>
-<!--Single Footer End-->
+                            <!--Single Footer End-->
                         </div>
                     </div>
                 </div>
-<!--Footer Top Area End-->
-<!--Footer Bottom Area Start-->
+                <!--Footer Top Area End-->
+                <!--Footer Bottom Area Start-->
                 <div class="footer-bottom-area">
                     <div class="container">
                         <div class="row">
-<!--Footer Left Content Start-->
+                            <!--Footer Left Content Start-->
                             <div class="col-md-6 col-sm-6">
-                                
+                                <div class="copyright-text ">
                                     <p>.</p>
                                 </div>
                             </div>
@@ -1222,59 +1215,59 @@
 </div>
 
                             </div>
-<!--Footer Left Content End-->
+                            <!--Footer Left Content End-->
                                                 
-<!--Footer Right Content End-->
+                            <!--Footer Right Content End-->
                         </div>
                     </div>
               
-<!--Footer Bottom Area End-->
+                <!--Footer Bottom Area End-->
             </div>
         </footer>
-<!--Footer Area End-->
+        <!--Footer Area End-->
 
 
-<!--All Js Here-->
+    <!--All Js Here-->
     
-<!--Jquery 1.12.4-->
+    <!--Jquery 1.12.4-->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
-<!--Imagesloaded-->
+    <!--Imagesloaded-->
     <script src="js/imagesloaded.pkgd.min.js"></script> 
-<!--Isotope-->
+    <!--Isotope-->
     <script src="js/isotope.pkgd.min.js"></script>       
-<!--Ui js-->
+    <!--Ui js-->
     <script src="js/jquery-ui.min.js"></script>       
-<!--Countdown-->
+    <!--Countdown-->
     <script src="js/jquery.countdown.min.js"></script>        
-<!--Counterup-->
+    <!--Counterup-->
     <script src="js/jquery.counterup.min.js"></script>       
-<!--ScrollUp-->
+    <!--ScrollUp-->
     <script src="js/jquery.scrollUp.min.js"></script>
-<!--Chosen js-->
+    <!--Chosen js-->
     <script src="js/chosen.jquery.js"></script>
-<!--Meanmenu js-->
+    <!--Meanmenu js-->
     <script src="js/jquery.meanmenu.min.js"></script>
-<!--Instafeed-->
+    <!--Instafeed-->
     <script src="js/instafeed.min.js"></script> 
-<!--EasyZoom-->
+    <!--EasyZoom-->
     <script src="js/easyzoom.min.js"></script> 
-<!--Fancybox-->
+    <!--Fancybox-->
     <script src="js/jquery.fancybox.pack.js"></script>       
-<!--Nivo Slider-->
+    <!--Nivo Slider-->
     <script src="js/jquery.nivo.slider.js"></script>
-<!--Waypoints-->
+    <!--Waypoints-->
     <script src="js/waypoints.min.js"></script>
-<!--Carousel-->
+    <!--Carousel-->
     <script src="js/owl.carousel.min.js"></script>
-<!--Slick-->
+    <!--Slick-->
     <script src="js/slick.min.js"></script>
-<!--Wow-->
+    <!--Wow-->
     <script src="js/wow.min.js"></script>
-<!--Bootstrap-->
+    <!--Bootstrap-->
     <script src="js/bootstrap.min.js"></script>
-<!--Plugins-->
+    <!--Plugins-->
     <script src="js/plugins.js"></script>
-<!--Main Js-->
+    <!--Main Js-->
     <script src="js/main.js"></script><script type="text/javascript">
     $(".productinfo").click(function(event) {
         $("#myModal .title").text($(this).attr('data-name'));

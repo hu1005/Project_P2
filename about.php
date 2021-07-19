@@ -28,37 +28,37 @@
 	
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Place favicon.ico in the root directory -->
+    <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="__img/favicon.html">
-<!-- Ionicons Font CSS-->
+    <!-- Ionicons Font CSS-->
     <link rel="stylesheet" href="css/ionicons.min.css">
-<!-- font awesome CSS-->
+    <!-- font awesome CSS-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-<!-- Animate CSS-->
+    <!-- Animate CSS-->
     <link rel="stylesheet" href="css/animate.css">
-<!-- UI CSS-->
+    <!-- UI CSS-->
     <link rel="stylesheet" href="css/jquery-ui.min.css">
-<!-- Chosen CSS-->
+    <!-- Chosen CSS-->
     <link rel="stylesheet" href="css/chosen.css">
-<!-- Meanmenu CSS-->
+    <!-- Meanmenu CSS-->
     <link rel="stylesheet" href="css/meanmenu.min.css">
-<!-- Fancybox CSS-->
+    <!-- Fancybox CSS-->
     <link rel="stylesheet" href="css/jquery.fancybox.css">
-<!-- Normalize CSS-->
+    <!-- Normalize CSS-->
     <link rel="stylesheet" href="css/normalize.css">
-<!-- Nivo Slider CSS-->
+    <!-- Nivo Slider CSS-->
     <link rel="stylesheet" href="css/nivo-slider.css">
-<!-- Owl Carousel CSS-->
+    <!-- Owl Carousel CSS-->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-<!-- EasyZoom CSS-->
+    <!-- EasyZoom CSS-->
     <link rel="stylesheet" href="css/easyzoom.css">
-<!-- Slick CSS-->
+    <!-- Slick CSS-->
     <link rel="stylesheet" href="css/slick.css">
 
 
-<!-- Responsive CSS -->
+    <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
-<!-- Modernizr Js -->
+    <!-- Modernizr Js -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
@@ -77,7 +77,7 @@
 	   
                                  
     <div class="wrapper home-5">
-<!--Header Area Start-->
+        <!--Header Area Start-->
         <header>
 
            <div class="header-container">
@@ -85,11 +85,11 @@
 
 <button id="themetoggle" onclick="toggleTheme()">Switch Theme</button>
 
-<!--Header Top Area Start--> 
+               <!--Header Top Area Start--> 
               <div class="header-top-area">
                    <div class="container">
                        <div class="row">
-<!--Header Top Left Area Start-->
+ <!--Header Top Left Area Start-->
                             <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
                                <div class="header-top-menu">
                                    <ul>
@@ -105,7 +105,7 @@
                                    
                                </div>
                            </div>		
-<!--Header Top Right Area Start-->
+						    <!--Header Top Right Area Start-->
                            <div class="col-md-8 col-sm-8 hidden-xs text-right">
                                <div class="header-top-menu">
                                    <ul>
@@ -114,49 +114,86 @@
                                    </ul>
                                </div>
                            </div>
-<!--Header Top Right Area End-->
-<!--Header Top Area End-->
-<!--Header Middel Area Start-->
+                           <!--Header Top Right Area End-->
+               <!--Header Top Area End-->
+               <!--Header Middel Area Start-->
                <div class="header-middel-area">
                    <div class="container">
                        <div class="row">
-<!--Logo Start-->
+                           <!--Logo Start-->
                            <div class="col-md-9 col-sm-9 col-xs-4">
                                <div class="logo">
                                    <a href="#"><img src="img/himvalue-logo.png" width="14%" class="logo-img"
                                     alt=""></a>
                                </div>
                            </div>
-<!--Logo End-->
+                           <!--Logo End-->
                           
-<!--Mini Cart Start-->
+                           <!--Mini Cart Start-->
                            <div class="col-md-3 col-sm-4 col-xs-8">
                                <div class="mini-cart-area">
                                    <ul>
                                        <li>
-                                                                                  <a href="cart.html"><i class="ion-android-cart"></i><span class="cart-add">0</span><span class="cart-total">Rs 0/- </a>
+                                                                                  <a href="mycart.php"><i class="ion-android-cart"></i><span class="cart-add"></span><span class="cart-total"> </a>
                                                                                </li>
                                    </ul>
                                </div>
                            </div>
-<!--Mini Cart End-->
+                           <!--Mini Cart End-->
                        </div>
                    </div>
                </div>
-<!--Header Middel Area End-->
-<!--Header bottom Area Start-->
+               <!--Header Middel Area End-->
+               <!--Header bottom Area Start-->
                <div class="header-bottom-area header-sticky">
                    <div class="container">
                        <div class="row">
                            <div class="col-md-12">
                                
-<!--Main Menu Area Start-->
+                               <!--Main Menu Area Start-->
                                <div class="main-menu-area">
 
 
                                    <nav>
                                        <ul class="main-menu">
-                                          <li id="home"><a href="index.html">Home</a></li>
+                                          <li id="home"><a href="index.php">Home</a></li>
+                                          
+                                                                                                                                       
+											 <li><a href = #>Our Products<span class="caret"></span></a>
+                                               <ul class="dropdown">
+                                               <li><a href="products/category1.html">Category 1</a> </li>
+											    <li><a href="products/category2.html">Category 2</a> </li>
+											   <li><a href="products/category3.html">Category 3></a> </li>
+											   <li><a href="products/category4.html">Category 4</a> </li>
+											  
+											   </ul></li>
+											   
+											   </li>
+                                                                                            
+                                            <li  class="active" ><a href="about.php" >About Us</a></li>
+                                            <li><a href="near-by-attraction.php">Near By Attraction</a></li>
+                                     
+                            
+                                           <li><a href="contact.html">Contact us</a></li>
+                                           <li><a href="index3.php">Our Store</a></li>
+                                       </ul>
+                                   </nav>
+                               </div>
+                               <!--Main Menu Area End-->
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <!--Header bottom Area End-->
+               <!--Mobile Menu Area Start-->
+               <div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-xs-12">
+                               <div class="mobile-menu">
+                                                                      <nav>
+                                       <ul class="main-menu">
+                                          <li id="home"><a href="index.php">Home</a></li>
                                           
                                                                                                                                        
 											 <li><a href = #>Our Products<span class="caret"></span></a>
@@ -170,47 +207,10 @@
 											   
 											   </li>
                                                                                             
-                                            <li  class="active" ><a href="about.html" >About Us</a></li>
-                                            <li><a href="near-by-attraction.html">Near By Attraction</a></li>
-                                     
-                                            <li><a href="description.html">Description</a></li>     
-                                           <li><a href="contact.html">Contact us</a></li>
-                                           <li><a href="index3.php">Our Store</a></li>
-                                       </ul>
-                                   </nav>
-                               </div>
-<!--Main Menu Area End-->
-                           </div>
-                       </div>
-                   </div>
-               </div>
-<!--Header bottom Area End-->
-<!--Mobile Menu Area Start-->
-               <div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
-                   <div class="container">
-                       <div class="row">
-                           <div class="col-xs-12">
-                               <div class="mobile-menu">
-                                                                      <nav>
-                                       <ul class="main-menu">
-                                          <li id="home"><a href="index.html">Home</a></li>
-                                          
-                                                                                                                                       
-											 <li><a href = #>Our Products<span class="caret"></span></a>
-                                               <ul class="dropdown">
-                                               <li><a href="products/category1.html">Category 1</a> </li>
-											    <li><a href="products/category2.html">Category 2</a> </li>
-											   <li><a href="products/category3.html"Category 3</a> </li>
-											   <li><a href="products/category4.html">Category 4</a> </li>
-											  
-											   </ul></li>
-											   
-											   </li>
-                                                                                            
-                                            <li  class="active" ><a href="about.html" >About Us</a></li>
-                                            <li><a href="near-by-attraction.html">Near By Attraction</a></li>
+                                            <li  class="active" ><a href="about.php" >About Us</a></li>
+                                            <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                          
-                                            <li><a href="description.html">Description</a></li> 
+                                            
                                            <li><a href="contact.html">Contact us</a></li>
                                                                                           
                                        </ul>
@@ -220,10 +220,10 @@
                        </div>
                    </div>
                 </div>
-<!--Mobile Menu Area End--> 
+               <!--Mobile Menu Area End--> 
             </div> 
         </header>
-<!--Header Area End-->
+        <!--Header Area End-->		<!--Header Area End-->
        <section class="heading-banner-area pt-30">
             <div class="container">
                 <div class="row">
@@ -243,13 +243,13 @@
                 </div>
             </div>
         </section>
-<!--Heading Banner Area End-->
-<!--Aboout Us Area Start-->
-<!--About Us Image Start-->
+        <!--Heading Banner Area End-->
+        <!--Aboout Us Area Start-->
+        <!--About Us Image Start-->
 
-<!--About Us Image End-->
+        <!--About Us Image End-->
         <div class="container">
-<!--About Us Content Start-->
+            <!--About Us Content Start-->
             <div class="about-us-title text-center">
                 <h2><strong>Welcome to Project P2</strong> <br><strong>Organic Food and Farming</strong></h2>
             </div>
@@ -262,7 +262,7 @@
 		<!--Slider Area Start-->
         <section class="slider-area ">
             <div class="slider-wrapper theme-default">
-<!--Slider Background Image Start-->
+                <!--Slider Background Image Start-->
                 <div id="slider" class="nivoSlider">
                     <img id="img1" src="img/about/slider-1.jpg" alt="" title="#htmlcaption" />
                     <img id="img2" src="img/about/slider-2.jpg" alt="" title="#htmlcaption2" />
@@ -270,19 +270,19 @@
                 </div>
             </div>
         </section>
-<!--Slider Area End-->
+        <!--Slider Area End-->
 		
             <div class="about-us-btn text-center">
                 <a href="#" class="button2">view Products </a>
             </div>
-<!--About Us Content End-->
+            <!--About Us Content End-->
         </div>
 
         <section class="service-item-area mt-20">
 
             <div class="container">
                 <div class="row">
-<!--Single Service Item Start-->
+                    <!--Single Service Item Start-->
                     <div class="col-md-6 col-sm-6">
                         <div class="single-service-item">
                             <div class="service-img img-full mb-35">
@@ -300,8 +300,8 @@
                             </div>
                         </div>
                     </div>
-<!--Single Service Item End-->
-<!--Single Service Item Start-->
+                    <!--Single Service Item End-->
+                    <!--Single Service Item Start-->
                     <div class="col-md-6 col-sm-6">
                         <div class="single-service-item">
                             <div class="service-img img-full mb-35">
@@ -317,17 +317,17 @@
                             </div>
                         </div>
                     </div>
-<!--Single Service Item End-->
+                    <!--Single Service Item End-->
 
                 </div>
             </div>
         </section>
-<!--Unlimited Ideas Area Start-->
+        <!--Unlimited Ideas Area Start-->
         <section class="unlimited-ideas-area">
             <div class="container-fluid">
                 <div class="row">
 
-<!--Unlimited Ideas Content Start-->
+                    <!--Unlimited Ideas Content Start-->
                     <div class="backg">
 
 
@@ -360,24 +360,24 @@
         </section>
 
 
-<!--Unlimited Ideas Area End-->
-<!--Footer Area Start-->
+        <!--Unlimited Ideas Area End-->
+        <!--Footer Area Start-->
         <footer>
             <div class="footer-container bg-3">
-<!--Footer Top Area Start-->
+                <!--Footer Top Area Start-->
                 <div class="footer-top-area ptb-50">
                     <div class="container">
                         <div class="row">
-<!--Single Footer Start-->
+                            <!--Single Footer Start-->
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-footer">
-<!--Footer Logo Start-->
+                                    <!--Footer Logo Start-->
                                     <div class="footer-logo">
                                         <a href="index-2.html"><img src="img/footer-logo.png" width="33%"
                                                 alt=""></a>
                                     </div>
-<!--Footer Logo End-->
-<!--Footer Content Start-->
+                                    <!--Footer Logo End-->
+                                    <!--Footer Content Start-->
                                     <div class="footer-content">
                                         <p class="text-dark"><strong>Project P2</strong></p>
                                         <div class="contact">
@@ -388,11 +388,11 @@
 
 
                                 </div>
-<!--Footer Content End-->
+                                <!--Footer Content End-->
                             </div>
 
-<!--Single Footer End-->
-<!--Single Footer Start-->
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
                             <div class="col-md-2 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
@@ -423,9 +423,9 @@
                                     </ul>
                                 </div>
                             </div>
-<!--Single Footer End-->
-<!--Single Footer Start-->
-<!-- <div class="col-md-2 col-sm-6">
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
+                            <!-- <div class="col-md-2 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
                                         <h3>My Account</h3>
@@ -441,8 +441,8 @@
                                 </div>
                             </div>
                              -->
-<!--Single Footer End-->
-<!--Single Footer Start-->
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
@@ -455,18 +455,18 @@
 
                                 </div>
                             </div>
-<!--Single Footer End-->
+                            <!--Single Footer End-->
                         </div>
                     </div>
                 </div>
-<!--Footer Top Area End-->
-<!--Footer Bottom Area Start-->
+                <!--Footer Top Area End-->
+                <!--Footer Bottom Area Start-->
                 <div class="footer-bottom-area">
                     <div class="container">
                         <div class="row">
-<!--Footer Left Content Start-->
+                            <!--Footer Left Content Start-->
                             <div class="col-md-6 col-sm-6">
-                                
+                                <div class="copyright-text ">
 
 
                                 </div>
@@ -486,21 +486,21 @@
                             </div>
 
                         </div>
-<!--Footer Left Content End-->
+                        <!--Footer Left Content End-->
 
-<!--Footer Right Content End-->
+                        <!--Footer Right Content End-->
                     </div>
                 </div>
 
-<!--Footer Bottom Area End-->
+                <!--Footer Bottom Area End-->
             </div>
         </footer>
-<!--Footer Area End-->
+        <!--Footer Area End-->
 
 
-<!--All Js Here-->
+        <!--All Js Here-->
 
-<!--Jquery 1.12.4-->
+        <!--Jquery 1.12.4-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
@@ -511,43 +511,43 @@
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
-<!--Imagesloaded-->
+        <!--Imagesloaded-->
         <script src="js/imagesloaded.pkgd.min.js"></script>
-<!--Isotope-->
+        <!--Isotope-->
         <script src="js/isotope.pkgd.min.js"></script>
-<!--Ui js-->
+        <!--Ui js-->
         <script src="js/jquery-ui.min.js"></script>
-<!--Countdown-->
+        <!--Countdown-->
         <script src="js/jquery.countdown.min.js"></script>
-<!--Counterup-->
+        <!--Counterup-->
         <script src="js/jquery.counterup.min.js"></script>
-<!--ScrollUp-->
+        <!--ScrollUp-->
         <script src="js/jquery.scrollUp.min.js"></script>
-<!--Chosen js-->
+        <!--Chosen js-->
         <script src="js/chosen.jquery.js"></script>
-<!--Meanmenu js-->
+        <!--Meanmenu js-->
         <script src="js/jquery.meanmenu.min.js"></script>
-<!--Instafeed-->
+        <!--Instafeed-->
         <script src="js/instafeed.min.js"></script>
-<!--EasyZoom-->
+        <!--EasyZoom-->
         <script src="js/easyzoom.min.js"></script>
-<!--Fancybox-->
+        <!--Fancybox-->
         <script src="js/jquery.fancybox.pack.js"></script>
-<!--Nivo Slider-->
+        <!--Nivo Slider-->
         <script src="js/jquery.nivo.slider.js"></script>
-<!--Waypoints-->
+        <!--Waypoints-->
         <script src="js/waypoints.min.js"></script>
-<!--Carousel-->
+        <!--Carousel-->
         <script src="js/owl.carousel.min.js"></script>
-<!--Slick-->
+        <!--Slick-->
         <script src="js/slick.min.js"></script>
-<!--Wow-->
+        <!--Wow-->
         <script src="js/wow.min.js"></script>
-<!--Bootstrap-->
+        <!--Bootstrap-->
         <script src="js/bootstrap.min.js"></script>
-<!--Plugins-->
+        <!--Plugins-->
         <script src="js/plugins.js"></script>
-<!--Main Js-->
+        <!--Main Js-->
         <script src="js/main.js"></script>
 </body>
 

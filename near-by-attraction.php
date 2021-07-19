@@ -7,7 +7,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-<!--   <title>Him Value - Organic Food and Farming</title> -->
+    <!--   <title>Him Value - Organic Food and Farming</title> -->
     <title>Project P2</title>
 	
 <!--theme swiching-->	
@@ -22,37 +22,37 @@
 	
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Place favicon.ico in the root directory -->
+    <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="__img/favicon.html">
-<!-- Ionicons Font CSS-->
+    <!-- Ionicons Font CSS-->
     <link rel="stylesheet" href="css/ionicons.min.css">
-<!-- font awesome CSS-->
+    <!-- font awesome CSS-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-<!-- Animate CSS-->
+    <!-- Animate CSS-->
     <link rel="stylesheet" href="css/animate.css">
-<!-- UI CSS-->
+    <!-- UI CSS-->
     <link rel="stylesheet" href="css/jquery-ui.min.css">
-<!-- Chosen CSS-->
+    <!-- Chosen CSS-->
     <link rel="stylesheet" href="css/chosen.css">
-<!-- Meanmenu CSS-->
+    <!-- Meanmenu CSS-->
     <link rel="stylesheet" href="css/meanmenu.min.css">
-<!-- Fancybox CSS-->
+    <!-- Fancybox CSS-->
     <link rel="stylesheet" href="css/jquery.fancybox.css">
-<!-- Normalize CSS-->
+    <!-- Normalize CSS-->
     <link rel="stylesheet" href="css/normalize.css">
-<!-- Nivo Slider CSS-->
+    <!-- Nivo Slider CSS-->
     <link rel="stylesheet" href="css/nivo-slider.css">
-<!-- Owl Carousel CSS-->
+    <!-- Owl Carousel CSS-->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-<!-- EasyZoom CSS-->
+    <!-- EasyZoom CSS-->
     <link rel="stylesheet" href="css/easyzoom.css">
-<!-- Slick CSS-->
+    <!-- Slick CSS-->
     <link rel="stylesheet" href="css/slick.css">
 
 
-<!-- Responsive CSS -->
+    <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
-<!-- Modernizr Js -->
+    <!-- Modernizr Js -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
@@ -71,7 +71,7 @@
 	   
                                  
     <div class="wrapper home-5">
-<!--Header Area Start-->
+        <!--Header Area Start-->
         <header>
 
            <div class="header-container">
@@ -79,17 +79,18 @@
 
 <button id="themetoggle" onclick="toggleTheme()">Switch Theme</button>
 
-<!--Header Top Area Start--> 
+               <!--Header Top Area Start--> 
               <div class="header-top-area">
                    <div class="container">
                        <div class="row">
-<!--Header Top Left Area Start-->
+ <!--Header Top Left Area Start-->
                             <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
                                <div class="header-top-menu">
                                    <ul>
                                        <li>
                                           <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
-                                       </li>
+                                          
+                                        </li>
                                    </ul>
                                </div>
                            </div>
@@ -99,7 +100,7 @@
                                    
                                </div>
                            </div>		
-<!--Header Top Right Area Start-->
+						    <!--Header Top Right Area Start-->
                            <div class="col-md-8 col-sm-8 hidden-xs text-right">
                                <div class="header-top-menu">
                                    <ul>
@@ -108,48 +109,47 @@
                                    </ul>
                                </div>
                            </div>
-<!--Header Top Right Area End-->
-<!--Header Top Area End-->
-<!--Header Middel Area Start-->
+                           <!--Header Top Right Area End-->
+               <!--Header Top Area End-->
+                <!--Header Middel Area Start-->
                 <div class="header-middel-area">
                     <div class="container">
                         <div class="row">
-<!--Logo Start-->
+                            <!--Logo Start-->
                             <div class="col-md-9 col-sm-9 col-xs-4">
                                 <div class="logo">
                                     <a href="#"><img src="img/himvalue-logo.png" width="14%" class="logo-img"
                                             alt=""></a>
                                 </div>
                             </div>
-<!--Logo End-->
+                            <!--Logo End-->
 
-<!--Mini Cart Start-->
+                            <!--Mini Cart Start-->
                             <div class="col-md-3 col-sm-4 col-xs-8">
                                 <div class="mini-cart-area">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="ion-android-cart"></i><span
-                                                    class="cart-add">0</span><span class="cart-total">Rs 0/- </a>
-                                        </li>
-                                    </ul>
+                                <ul>
+                                       <li>
+                                                                                  <a href="mycart.php"><i class="ion-android-cart"></i><span class="cart-add"></span><span class="cart-total"> </a>
+                                                                               </li>
+                                   </ul>
                                 </div>
                             </div>
-<!--Mini Cart End-->
+                            <!--Mini Cart End-->
                         </div>
                     </div>
                 </div>
-<!--Header Middel Area End-->
-<!--Header bottom Area Start-->
+                <!--Header Middel Area End-->
+                <!--Header bottom Area Start-->
                 <div class="header-bottom-area header-sticky">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
 
-<!--Main Menu Area Start-->
+                                <!--Main Menu Area Start-->
                                 <div class="main-menu-area">
                                     <nav>
                                         <ul class="main-menu">
-                                            <li id="home"><a href="index.html">Home</a></li>
+                                            <li id="home"><a href="index.php">Home</a></li>
 
 
                                             <li><a href=#>Our Products<span class="caret"></span></a>
@@ -164,11 +164,11 @@
 
                                             </li>
 
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li class="active"><a href="near-by-attraction.html">Near By Attraction</a>
+                                            <li><a href="about.php">About Us</a></li>
+                                            <li class="active"><a href="near-by-attraction.php">Near By Attraction</a>
                                             </li>
 
-                                            <li><a href="description.html">Description</a></li>
+                                            
     
                                             <li><a href="contact.html">Contact us</a></li>
                                             <li><a href="index3.php">Our Store</a></li>
@@ -177,13 +177,13 @@
                                         </ul>
                                     </nav>
                                 </div>
-<!--Main Menu Area End-->
+                                <!--Main Menu Area End-->
                             </div>
                         </div>
                     </div>
                 </div>
-<!--Header bottom Area End-->
-<!--Mobile Menu Area Start-->
+                <!--Header bottom Area End-->
+                <!--Mobile Menu Area Start-->
                 <div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
                     <div class="container">
                         <div class="row">
@@ -191,7 +191,7 @@
                                 <div class="mobile-menu">
                                     <nav>
                                         <ul class="main-menu">
-                                            <li id="home"><a href="index.html">Home</a></li>
+                                            <li id="home"><a href="index.php">Home</a></li>
 
 
                                             <li><a href=#>Our Products<span class="caret"></span></a>
@@ -206,11 +206,11 @@
 
                                             </li>
 
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li class="active"><a href="near-by-attraction.html">Near By Attraction</a>
+                                            <li><a href="about.php">About Us</a></li>
+                                            <li class="active"><a href="near-by-attraction.php">Near By Attraction</a>
                                             </li>
 
-                                            <li><a href="description.html">Description</a></li>
+                                            
     
                                             <li><a href="contact.html">Contact us</a></li>
                                             <li><a href="index3.php">Our Store</a></li>
@@ -222,12 +222,12 @@
                         </div>
                     </div>
                 </div>
-<!--Mobile Menu Area End-->
+                <!--Mobile Menu Area End-->
             </div>
         </header>
-<!--Header Area End-->
+        <!--Header Area End-->
 
-<!--Heading Banner Area Start-->
+        <!--Heading Banner Area Start-->
         <section class="heading-banner-area pt-30">
             <div class="container">
                 <div class="row">
@@ -247,16 +247,16 @@
                 </div>
             </div>
         </section>
-<!--Heading Banner Area End-->
-<!--Blog Area Start-->
+        <!--Heading Banner Area End-->
+        <!--Blog Area Start-->
 
         <section class="blog-area mt-20">
             <div class="container">
                 <div class="row">
-<!--Blog No Sidebar Start-->
+                    <!--Blog No Sidebar Start-->
                     <div class="col-md-12">
                         <div class="all-single-blog">
-<!--Single Blog Post Start-->
+                            <!--Single Blog Post Start-->
                             <div class="single-blog-post mb-40">
                                 <div class="post-thumbnail img-full">
                                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -307,10 +307,10 @@
                                     </div>
                                 </div>
                             </div>
-<!--Single Blog Post End-->
+                            <!--Single Blog Post End-->
 
 
-<!--Single Blog Post Start-->
+                            <!--Single Blog Post Start-->
                             <div class="single-blog-post mb-40">
                                 <div class="post-thumbnail img-full">
                                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -352,10 +352,10 @@
                                     </div>
                                 </div>
                             </div>
-<!--Single Blog Post End-->
+                            <!--Single Blog Post End-->
 
 
-<!--Single Blog Post Start-->
+                            <!--Single Blog Post Start-->
                             <div class="single-blog-post mb-40">
                                 <div class="post-thumbnail img-full">
 
@@ -401,10 +401,10 @@
                                     </div>
                                 </div>
                             </div>
-<!--Single Blog Post End-->
+                            <!--Single Blog Post End-->
 
 
-<!--Single Blog Post Start-->
+                            <!--Single Blog Post Start-->
                             <div class="single-blog-post mb-40">
                                 <div class="post-thumbnail img-full">
 
@@ -454,9 +454,9 @@
                                     </div>
                                 </div>
                             </div>
-<!--Single Blog Post End-->
+                            <!--Single Blog Post End-->
 
-<!--Single Blog Post Start-->
+                            <!--Single Blog Post Start-->
                             <div class="single-blog-post mb-40">
                                 <div class="post-thumbnail img-full">
                                     <a href="#"><img
@@ -504,18 +504,18 @@
                                     </div>
                                 </div>
                             </div>
-<!--Single Blog Post End-->
+                            <!--Single Blog Post End-->
 
 
 
 
                         </div>
                     </div>
-<!--Blog No Sidebar End-->
+                    <!--Blog No Sidebar End-->
                 </div>
             </div>
         </section>
-<!--Blog Area End-->
+        <!--Blog Area End-->
 
 
 
@@ -526,23 +526,23 @@
 
 
 
-<!--Footer Area Start-->
+        <!--Footer Area Start-->
         <footer>
             <div class="footer-container bg-3">
-<!--Footer Top Area Start-->
+                <!--Footer Top Area Start-->
                 <div class="footer-top-area ptb-50">
                     <div class="container">
                         <div class="row">
-<!--Single Footer Start-->
+                            <!--Single Footer Start-->
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-footer">
-<!--Footer Logo Start-->
+                                    <!--Footer Logo Start-->
                                     <div class="footer-logo">
                                         <a href="index-2.html"><img src="img/footer-logo.png" width="33%"
                                                 alt=""></a>
                                     </div>
-<!--Footer Logo End-->
-<!--Footer Content Start-->
+                                    <!--Footer Logo End-->
+                                    <!--Footer Content Start-->
                                     <div class="footer-content">
                                         <p class="text-dark"><strong>Project P2</strong></p>
                                         <div class="contact">
@@ -553,11 +553,11 @@
 
 
                                 </div>
-<!--Footer Content End-->
+                                <!--Footer Content End-->
                             </div>
 
-<!--Single Footer End-->
-<!--Single Footer Start-->
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
                             <div class="col-md-2 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
@@ -588,9 +588,9 @@
                                     </ul>
                                 </div>
                             </div>
-<!--Single Footer End-->
-<!--Single Footer Start-->
-<!-- <div class="col-md-2 col-sm-6">
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
+                            <!-- <div class="col-md-2 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
                                         <h3>My Account</h3>
@@ -606,8 +606,8 @@
                                 </div>
                             </div>
                              -->
-<!--Single Footer End-->
-<!--Single Footer Start-->
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
@@ -620,18 +620,18 @@
 
                                 </div>
                             </div>
-<!--Single Footer End-->
+                            <!--Single Footer End-->
                         </div>
                     </div>
                 </div>
-<!--Footer Top Area End-->
-<!--Footer Bottom Area Start-->
+                <!--Footer Top Area End-->
+                <!--Footer Bottom Area Start-->
                 <div class="footer-bottom-area">
                     <div class="container">
                         <div class="row">
-<!--Footer Left Content Start-->
+                            <!--Footer Left Content Start-->
                             <div class="col-md-6 col-sm-6">
-                                
+                                <div class="copyright-text ">
 
 
                                 </div>
@@ -651,23 +651,23 @@
                             </div>
 
                         </div>
-<!--Footer Left Content End-->
+                        <!--Footer Left Content End-->
 
-<!--Footer Right Content End-->
+                        <!--Footer Right Content End-->
                     </div>
                 </div>
 
-<!--Footer Bottom Area End-->
+                <!--Footer Bottom Area End-->
             </div>
         </footer>
-<!--Footer Area End-->
+        <!--Footer Area End-->
 
 
-<!--All Js Here-->
+        <!--All Js Here-->
 
-<!--Jquery 1.12.4-->
+        <!--Jquery 1.12.4-->
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
-<!--Imagesloaded-->
+        <!--Imagesloaded-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
@@ -678,41 +678,41 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
         <script src="js/imagesloaded.pkgd.min.js"></script>
-<!--Isotope-->
+        <!--Isotope-->
         <script src="js/isotope.pkgd.min.js"></script>
-<!--Ui js-->
+        <!--Ui js-->
         <script src="js/jquery-ui.min.js"></script>
-<!--Countdown-->
+        <!--Countdown-->
         <script src="js/jquery.countdown.min.js"></script>
-<!--Counterup-->
+        <!--Counterup-->
         <script src="js/jquery.counterup.min.js"></script>
-<!--ScrollUp-->
+        <!--ScrollUp-->
         <script src="js/jquery.scrollUp.min.js"></script>
-<!--Chosen js-->
+        <!--Chosen js-->
         <script src="js/chosen.jquery.js"></script>
-<!--Meanmenu js-->
+        <!--Meanmenu js-->
         <script src="js/jquery.meanmenu.min.js"></script>
-<!--Instafeed-->
+        <!--Instafeed-->
         <script src="js/instafeed.min.js"></script>
-<!--EasyZoom-->
+        <!--EasyZoom-->
         <script src="js/easyzoom.min.js"></script>
-<!--Fancybox-->
+        <!--Fancybox-->
         <script src="js/jquery.fancybox.pack.js"></script>
-<!--Nivo Slider-->
+        <!--Nivo Slider-->
         <script src="js/jquery.nivo.slider.js"></script>
-<!--Waypoints-->
+        <!--Waypoints-->
         <script src="js/waypoints.min.js"></script>
-<!--Carousel-->
+        <!--Carousel-->
         <script src="js/owl.carousel.min.js"></script>
-<!--Slick-->
+        <!--Slick-->
         <script src="js/slick.min.js"></script>
-<!--Wow-->
+        <!--Wow-->
         <script src="js/wow.min.js"></script>
-<!--Bootstrap-->
+        <!--Bootstrap-->
         <script src="js/bootstrap.min.js"></script>
-<!--Plugins-->
+        <!--Plugins-->
         <script src="js/plugins.js"></script>
-<!--Main Js-->
+        <!--Main Js-->
         <script src="js/main.js"></script>
 </body>
 
