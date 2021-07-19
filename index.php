@@ -86,7 +86,7 @@
                                    <ul>
                                        <li>
                                           <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
-                                          <i class="fa fa-envelope-o"> patidarakshay999@gmail.com | </i><i class="fa fa-phone"> +91-9521263447 </i>
+
                                        </li>
                                    </ul>
                                </div>

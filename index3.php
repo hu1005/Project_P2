@@ -12,8 +12,9 @@
 </head>
 
 <body>
-    
     <div class="container mt-5">
+	        <h2> Herbs Section</h2>
+
         <div class="row">
             <div class="col-lg-3">
                 <form action="manage_cart.php" method="POST">
@@ -119,7 +120,7 @@
             
         </div>
 
-        <h2> fruits Section</h2>
+        <h2> Fruits Section</h2>
         <div class="row">
             <div class="col-lg-3">
                 <form action="manage_cart.php" method="POST">
@@ -475,10 +476,9 @@
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
                                         <h3>ADDRESS</h3>
-                                        <p>Kotabagh, Nainital, Uttarakhand<br /> India, Pin- 263159 </p>
-                                        <p><label>Phone:</label> +91-7248383768</p>
-                                        <p><label>Phone:</label> +91-7300859006</p>
-                                        <p><label>Email:</label> info@himvalue.com</a></p>
+                                   <p>Jaipur, Rajasthan<br/> India, Pin- 302033 </p>    
+                                        <p><label>Phone:</label> +91-9462642837</p>
+                                        <p><label>Email:</label> hupadhyay1005@gmail.com</a></p>
                                     </div>
 
                                 </div>
@@ -494,10 +494,7 @@
                         <div class="row">
                             <!--Footer Left Content Start-->
                             <div class="col-md-6 col-sm-6">
-                                <div class="copyright-text ">
-                                    <p>Copyright © 2018-2019 <a href="https://acewebcreations.com/"
-                                            target="_blank">Aceweb Creations</a>, All Rights Reserved.</p>
-                                </div>
+                                
                             </div>
                             <div class="col-md-6 col-sm-6" style="text-align: right;">
                                 <ul class="socil-icon">
