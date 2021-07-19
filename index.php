@@ -161,7 +161,7 @@
                                             <li ><a href="about.php" >About Us</a></li>
                                             <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                            <li><a href="contact.html">Contact us</a></li>
-                                           <li><a href="index3.php">Our Store</a></li>
+                                           <li><a href="store.php">Our Store</a></li>
                                                                                           
                                        </ul>
                                    </nav>
@@ -197,7 +197,7 @@
                                             <li ><a href="about.php" >About Us</a></li>
                                             <li><a href="near-by-attraction.php">Near By Attraction</a></li>
                                            <li><a href="contact.html">Contact us</a></li>
-                                           <li><a href="index3.php">Our Store</a></li>
+                                           <li><a href="store.php">Our Store</a></li>
                                                                                           
                                        </ul>
                                    </nav>

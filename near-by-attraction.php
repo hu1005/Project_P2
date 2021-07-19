@@ -171,7 +171,7 @@
                                             
     
                                             <li><a href="contact.html">Contact us</a></li>
-                                            <li><a href="index3.php">Our Store</a></li>
+                                            <li><a href="store.php">Our Store</a></li>
 
 
                                         </ul>
@@ -213,7 +213,7 @@
                                             
     
                                             <li><a href="contact.html">Contact us</a></li>
-                                            <li><a href="index3.php">Our Store</a></li>
+                                            <li><a href="store.php">Our Store</a></li>
 
                                         </ul>
                                     </nav>

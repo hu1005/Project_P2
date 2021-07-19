@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
             {
                 echo "<script>
                 alert('Item Already Added');
-                window.location.href='index3.php';
+                window.location.href='store.php';
             </script>";
             } 
             else 
@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                 $_SESSION['cart'][$count] = array('Item_Name' => $_POST['Item_Name'], 'Price' => $_POST['Price'], 'Quantity' => 1);
                 echo "<script>
                 alert('Item Added');
-                window.location.href='index3.php';
+                window.location.href='store.php';
                 </script>";
             }
         }
@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
             $_SESSION['cart'][0] = array('Item_Name' => $_POST['Item_Name'], 'Price' => $_POST['Price'], 'Quantity' => 1);
             echo "<script>
             alert('Item Added');
-            window.location.href='index3.php';
+            window.location.href='store.php';
             </script>";
         }
     }

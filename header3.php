@@ -180,7 +180,7 @@ session_start();
 
                                                         
                                                         <li><a href="contact.html">Contact us</a></li>
-                                                        <li class="active"><a href="index3.php">Our Store</a></li>
+                                                        <li class="active"><a href="store.php">Our Store</a></li>
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -218,7 +218,7 @@ session_start();
 
                                                         
                                                         <li><a href="contact.html">Contact us</a></li>
-                                                        <li class="active"><a href="index3.php">Our Store</a></li>
+                                                        <li class="active"><a href="store.php">Our Store</a></li>
 
                                                     </ul>
                                                 </nav>
