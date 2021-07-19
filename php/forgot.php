@@ -20,7 +20,7 @@ $subject = "Your Password";
 $body = "Hi,We just received your forgot password request. The password for the Username:-$name is:- $result";
 $headers = "From: hupadhyay2012@gmail.com";
 
-if($result)
+if(mail($to_email, $subject, $body, $headers)) 
 {
 	echo "Your password has been successfully sent on your registered Email address";
 	
@@ -30,5 +30,6 @@ else
 {
 	echo "Sorry, we could not find the entered Username and Email Address combination in our database.";
 	
+
 }
 ?>  
