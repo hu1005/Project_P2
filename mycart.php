@@ -250,7 +250,7 @@ include("header3.php");
                             <div class="col-md-6 col-sm-6" style="text-align: right;">
                                 <ul class="socil-icon">
                                     <li><a href="#" data-toggle="tooltip" title="Twitter"><i
-                                                class="ion-social-twitter"></i></a></li>
+                                                class="fa fa-facebook"></i></a></li>
                                     <li><a href="#" data-toggle="tooltip" title="Facebook"><i
                                                 class="ion-social-facebook"></i></a></li>
                                     <li><a href="#" data-toggle="tooltip" title="Google Plus"><i
@@ -307,8 +307,7 @@ include("header3.php");
         <script src="assets/js/instafeed.min.js"></script>
         <!--EasyZoom-->
         <script src="assets/js/easyzoom.min.js"></script>
-        <!--Fancybox-->
-        <script src="assets/js/jquery.fancybox.pack.js"></script>
+            <script src="assets/js/jquery.fancybox.pack.js"></script>
         <!--Nivo Slider-->
         <script src="assets/js/jquery.nivo.slider.js"></script>
         <!--Waypoints-->

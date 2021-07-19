@@ -26,24 +26,24 @@ session_start();
     <link rel="stylesheet" href="css/ionicons.min.css">
     <!-- font awesome CSS-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- Animate CSS-->
-    <link rel="stylesheet" href="css/animate.css">
+    
+    
     <!-- UI CSS-->
     <link rel="stylesheet" href="css/jquery-ui.min.css">
-    <!-- Chosen CSS-->
-    <link rel="stylesheet" href="css/chosen.css">
-    <!-- Meanmenu CSS-->
+    
+    
+    <!-- Meanmenu CSS (for mobile dropdown menus)-->
     <link rel="stylesheet" href="css/meanmenu.min.css">
-    <!-- Fancybox CSS-->
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <!-- Normalize CSS-->
+    
+    
+    
     <link rel="stylesheet" href="css/normalize.css">
-    <!-- Nivo Slider CSS-->
+    <!--Nivo Slider CSS-->
     <link rel="stylesheet" href="css/nivo-slider.css">
-    <!-- Owl Carousel CSS-->
+    <!-- Owl Carousel CSS ( for display of featured products)-->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!-- EasyZoom CSS-->
-    <link rel="stylesheet" href="css/easyzoom.css">
+    
+    
     <!-- Slick CSS-->
     <link rel="stylesheet" href="css/slick.css">
 
