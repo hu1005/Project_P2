@@ -190,7 +190,7 @@ span.price {
                                 <div class="main-menu-area">
                                     <nav>
                                         <ul class="main-menu">
-                                            <li id="home"><a href="index.php">Home</a></li>
+                                            <li id="home"><a href="index.html">Home</a></li>
 
 
                                             <li><a href=#>Our Products<span class="caret"></span></a>
@@ -205,8 +205,8 @@ span.price {
 
                                             </li>
 
-                                            <li><a href="about.php">About Us</a></li>
-                                            <li><a href="near-by-attraction.php">Near By Attraction</a></li>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="near-by-attraction.html">Near By Attraction</a></li>
 
                                             
                                             <li><a href="contact.html">Contact us</a></li>
@@ -228,7 +228,7 @@ span.price {
                                 <div class="mobile-menu">
                                     <nav>
                                         <ul class="main-menu">
-                                            <li id="home"><a href="index.php">Home</a></li>
+                                            <li id="home"><a href="index.html">Home</a></li>
 
 
                                             <li><a href=#>Our Products<span class="caret"></span></a>
@@ -243,8 +243,8 @@ span.price {
 
                                             </li>
 
-                                            <li><a href="about.php">About Us</a></li>
-                                            <li class="active"><a href="near-by-attraction.php">Near By Attraction</a>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li class="active"><a href="near-by-attraction.html">Near By Attraction</a>
                                             </li>
 
                                             

@@ -163,7 +163,7 @@ session_start();
 
                                                 <nav>
                                                     <ul class="main-menu">
-                                                        <li id="home"><a href="index.php">Home</a></li>
+                                                        <li id="home"><a href="index.html">Home</a></li>
 
 
                                                         <li><a href=#>Our Products<span class="caret"></span></a>
@@ -178,8 +178,8 @@ session_start();
 
                                                         </li>
 
-                                                        <li ><a href="about.php">About Us</a></li>
-                                                        <li><a href="near-by-attraction.php">Near By Attraction</a></li>
+                                                        <li ><a href="about.html">About Us</a></li>
+                                                        <li><a href="near-by-attraction.html">Near By Attraction</a></li>
 
                                                         
                                                         <li><a href="contact.html">Contact us</a></li>
@@ -201,7 +201,7 @@ session_start();
                                             <div class="mobile-menu">
                                                 <nav>
                                                     <ul class="main-menu">
-                                                        <li id="home"><a href="index.php">Home</a></li>
+                                                        <li id="home"><a href="index.html">Home</a></li>
 
 
                                                         <li><a href=#>Our Products<span class="caret"></span></a>
@@ -216,8 +216,8 @@ session_start();
 
                                                         </li>
 
-                                                        <li><a href="about.php">About Us</a></li>
-                                                        <li><a href="near-by-attraction.php">Near By Attraction</a></li>
+                                                        <li><a href="about.html">About Us</a></li>
+                                                        <li><a href="near-by-attraction.html">Near By Attraction</a></li>
 
                                                         
                                                         <li><a href="contact.html">Contact us</a></li>
