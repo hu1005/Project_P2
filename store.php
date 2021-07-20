@@ -170,7 +170,7 @@ session_start();
                                                             <ul class="dropdown">
                                                                 <li><a href="category/category1.html">Category 1</a> </li>
                                                                 <li><a href="category/category2.html">Category 2</a> </li>
-                                                                <li><a href="category/category3.html"> Category 3></a> </li>
+                                                                <li><a href="category/category3.html"> Category 3</a> </li>
                                                                 <li><a href="category/category4.html">Category 4</a> </li>
 
                                                             </ul>
