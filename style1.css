@@ -1088,14 +1088,14 @@ textarea:focus {
 	 background-size: cover;
 	 background-repeat: no-repeat;
 }
- .bg-6 { background: url(../../images/bg/6.jpg);}
- .bg-7 { background: url(../../images/bg/7.html);}
- .bg-8 { background: url(../../images/bg/8.html);}
- .bg-9 { background: url(../../images/bg/9.html);}
- .bg-10 { background: url(../../images/bg/10.html);}
+ .bg-6 { background: url(../../img/bg/6.jpg);}
+ .bg-7 { background: url(../../img/bg/7.html);}
+ .bg-8 { background: url(../../img/bg/8.html);}
+ .bg-9 { background: url(../../img/bg/9.html);}
+ .bg-10 { background: url(../../img/bg/10.html);}
 
 /*pattern background*/
-.pattern-bg { background:url(../../images/pattern/pattern-bg.html) repeat; background-position: top right; background-color: rgba(236, 239, 247, 1); }
+.pattern-bg { background:url(../../img/pattern/pattern-bg.html) repeat; background-position: top right; background-color: rgba(236, 239, 247, 1); }
 /*separator*/
 .separator{
     position: relative;
