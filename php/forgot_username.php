@@ -28,7 +28,7 @@ if(mail($to_email, $subject, $body, $headers))
 
 else
 {
-	echo "Sorry, we could not find the entered Username and Email Address combination in our database.";
+	echo "Sorry, we could not find the entered Phone and Email Address combination in our database.";
 	
 
 }

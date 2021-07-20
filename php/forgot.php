@@ -17,7 +17,7 @@ $rs = mysqli_query($con,$sql);
 
 $to_email = "projectp2intern@gmail.com";
 $subject = "Your Password"; 
-$body = "Hi,We just received your forgot password request. The password for the Username:-$name is:- $result";
+$body = "Hi,We just received your forgot password request. The password for the entered Username :- $name is:- $result";
 $headers = "From: projectp2intern@gmail.com";
 
 if(mail($to_email, $subject, $body, $headers)) 
