@@ -137,7 +137,7 @@ span.price {
                                </div>
 							   
                            </div>
-						   <div class="col-md-3 col-sm-9 col-xs-2 text-center">
+						   <div class="col-md-4 col-sm-9 col-xs-2 text-center">
                                <div class="header-top-menu">
                                    <ul>
                                        <li>
@@ -151,7 +151,7 @@ span.price {
 							   
                            </div>
 						     
-						 <div class="col-md-3 col-sm-8 hidden-xs text-right">
+						 <div class="col-md-3 col-sm-8 hidden-xs text-center">
                                <div class="header-top-menu">
                                    <ul>
                                        <li class="support"><span><a id="signup" href = "signup.html">Sign Up | </a><a id="login"href = "login.html">Login</a></span></li>
@@ -175,7 +175,7 @@ span.price {
                            </div>
 						   
                            <!--Logo End-->
-                      <div class="col-md-2 col-sm-9 col-xs-1 text-center">
+                      <div class="col-md-1 col-sm-9 col-xs-1 text-centre">
                                <div class="form-popup" id="myForm">
   <form action="" class="form-container">
 <input id="pincode" placeholder="Enter PINCODE"maxlength="6"> <br>
