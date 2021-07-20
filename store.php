@@ -29,8 +29,8 @@ session_start();
     <link rel="stylesheet" href="css/font-awesome.min.css">
     
     
-    <!-- UI CSS-->
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    
+    
     
     
     <!-- Meanmenu CSS (for mobile dropdown menus)-->
@@ -39,20 +39,20 @@ session_start();
     
     
     <link rel="stylesheet" href="css/normalize.css">
-    <!--Nivo Slider CSS-->
+    <!--Nivo Slider CSS(for all sliders)-->
     <link rel="stylesheet" href="css/nivo-slider.css">
     <!-- Owl Carousel CSS ( for display of featured products)-->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     
     
-    <!-- Slick CSS-->
-    <link rel="stylesheet" href="css/slick.css">
+    
+    
 
 
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Modernizr Js -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    
+    
+    
+    
 
 </head>
 
@@ -759,41 +759,41 @@ session_start();
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
-        <!--Imagesloaded-->
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <!--Isotope-->
-        <script src="js/isotope.pkgd.min.js"></script>
+        
+        
+        
+    
         <!--Ui js-->
         <script src="js/jquery-ui.min.js"></script>
-        <!--Countdown-->
-        <script src="js/jquery.countdown.min.js"></script>
-        <!--Counterup-->
-        <script src="js/jquery.counterup.min.js"></script>
+        
+        
+        
+        
         <!--ScrollUp-->
         <script src="js/jquery.scrollUp.min.js"></script>
-        <!--Chosen js-->
-        <script src="js/chosen.jquery.js"></script>
-        <!--Meanmenu js-->
+        
+        
+        <!-- Meanmenu JS (for mobile dropdown menus)-->
         <script src="js/jquery.meanmenu.min.js"></script>
-        <!--Instafeed-->
-        <script src="js/instafeed.min.js"></script>
-        <!--EasyZoom-->
-        <script src="js/easyzoom.min.js"></script>
+        
+        
+        
+        
             <script src="js/jquery.fancybox.pack.js"></script>
-        <!--Nivo Slider-->
+        <!--Nivo Slider JS(for all sliders)-->
         <script src="js/jquery.nivo.slider.js"></script>
         <!--Waypoints-->
         <script src="js/waypoints.min.js"></script>
-        <!--Carousel-->
+        <!-- Owl Carousel JS ( for display of featured products)-->
         <script src="js/owl.carousel.min.js"></script>
-        <!--Slick-->
-        <script src="js/slick.min.js"></script>
-        <!--Wow-->
-        <script src="js/wow.min.js"></script>
+        
+        
+        
+        
         <!--Bootstrap-->
         <script src="js/bootstrap.min.js"></script>
-        <!--Plugins-->
-        <script src="js/plugins.js"></script>
+        
+        
         <!--Main Js-->
         <script src="js/main.js"></script>
 
