@@ -158,7 +158,7 @@ span.price {
 <!--Logo Start-->
                             <div class="col-md-9 col-sm-9 col-xs-4">
                                 <div class="logo">
-                                    <a href="#"><img src="../img/project-p2.png" width="14%" class="logo-img"
+                                    <img src="../img/project-p2.png" width="14%" class="logo-img"
                                             alt=""></a>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@ span.price {
                                 <div class="mini-cart-area">
                                     <ul>
                                         <li>
-                                            <a href="#"><i class="ion-android-cart"></i><span
+                                            <i class="ion-android-cart"></i><span
                                                     class="cart-add">0</span><span class="cart-total">Rs 0/- </a>
                                         </li>
                                     </ul>
@@ -338,10 +338,10 @@ span.price {
                                       <h3>information</h3>
                                   </div>
                                   <ul class="footer-info">
-                                      <li><a href="#">Home</a></li>
-                                      <li><a href="#">About Us</a></li>
-                                      <li><a href="#">Near By Attraction</a></li>
-                                      <li><a href="#">Contact</a></li>
+                                      <li>Home</a></li>
+                                      <li>About Us</a></li>
+                                      <li>Near By Attraction</a></li>
+                                      <li>Contact</a></li>
 
 
                                   </ul>
@@ -353,10 +353,10 @@ span.price {
                                       <h3>information</h3>
                                   </div>
                                   <ul class="footer-info">
-                                      <li><a href="#">Home</a></li>
-                                      <li><a href="#">About Us</a></li>
-                                      <li><a href="#">Near By Attraction</a></li>
-                                      <li><a href="#">Contact</a></li>
+                                      <li>Home</a></li>
+                                      <li>About Us</a></li>
+                                      <li>Near By Attraction</a></li>
+                                      <li>Contact</a></li>
 
 
                                   </ul>
@@ -370,12 +370,12 @@ span.price {
                                       <h3>My Account</h3>
                                   </div>
                                   <ul class="footer-info">
-                                      <li><a href="#">My Account</a></li>
-                                      <li><a href="#">Contact</a></li>
-                                      <li><a href="#">Shopping cart</a></li>
-                                      <li><a href="#">Checkout</a></li>
-                                      <li><a href="#">Portfolio</a></li>
-                                      <li><a href="#">Frequently Questions</a></li>
+                                      <li>My Account</a></li>
+                                      <li>Contact</a></li>
+                                      <li>Shopping cart</a></li>
+                                      <li>Checkout</a></li>
+                                      <li>Portfolio</a></li>
+                                      <li>Frequently Questions</a></li>
                                   </ul>
                               </div>
                           </div>

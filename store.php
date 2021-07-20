@@ -131,7 +131,7 @@ session_start();
                                         <!--Logo Start-->
                                         <div class="col-md-9 col-sm-9 col-xs-4">
                                             <div class="logo">
-                                                <a href="#"><img src="img/project-p2.png" width="14%" class="logo-img" alt=""></a>
+                                                <img src="img/project-p2.png" width="14%" class="logo-img" alt=""></a>
                                             </div>
                                         </div>
                                         <!--Logo End-->
@@ -477,7 +477,7 @@ session_start();
                     <div class="card">
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
-                            <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/270678_1100-800x825.jpg"class="card-img-top" width="400" height="250">
+                            <img src="https://post.medicalnewstoday.com/wp-content/category/product_images/sites/3/2020/02/270678_1100-800x825.jpg"class="card-img-top" width="400" height="250">
 
                             <h5 class="card-title">Celery</h5>
                             <p class="card-text">Price: Rs.320</p>
@@ -496,7 +496,7 @@ session_start();
                     <div class="card">
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
-                        <img src="https://www.bigbasket.com/media/uploads/p/l/40138448_3-fresho-baby-spinach.jpg"class="card-img-top" width="400" height="250">
+                        <img src="https://www.bigbasket.com/media/category/product_images/p/l/40138448_3-fresho-baby-spinach.jpg"class="card-img-top" width="400" height="250">
                             <h5 class="card-title">Baby_Spinach</h5>
                             <p class="card-text">Price: Rs.150</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
@@ -651,10 +651,10 @@ session_start();
                                         <h3>information</h3>
                                     </div>
                                     <ul class="footer-info">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Near By Attraction</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li>Home</a></li>
+                                        <li>About Us</a></li>
+                                        <li>Near By Attraction</a></li>
+                                        <li>Contact</a></li>
 
 
                                     </ul>
@@ -666,10 +666,10 @@ session_start();
                                         <h3>information</h3>
                                     </div>
                                     <ul class="footer-info">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Near By Attraction</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li>Home</a></li>
+                                        <li>About Us</a></li>
+                                        <li>Near By Attraction</a></li>
+                                        <li>Contact</a></li>
 
 
                                     </ul>
@@ -683,12 +683,12 @@ session_start();
                                         <h3>My Account</h3>
                                     </div>
                                     <ul class="footer-info">
-                                        <li><a href="#">My Account</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                        <li><a href="#">Shopping cart</a></li>
-                                        <li><a href="#">Checkout</a></li>
-                                        <li><a href="#">Portfolio</a></li>
-                                        <li><a href="#">Frequently Questions</a></li>
+                                        <li>My Account</a></li>
+                                        <li>Contact</a></li>
+                                        <li>Shopping cart</a></li>
+                                        <li>Checkout</a></li>
+                                        <li>Portfolio</a></li>
+                                        <li>Frequently Questions</a></li>
                                     </ul>
                                 </div>
                             </div>
