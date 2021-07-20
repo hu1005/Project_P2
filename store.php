@@ -131,7 +131,7 @@ session_start();
                                         <!--Logo Start-->
                                         <div class="col-md-9 col-sm-9 col-xs-4">
                                             <div class="logo">
-                                                <a href="#"><img src="img/himvalue-logo.png" width="14%" class="logo-img" alt=""></a>
+                                                <a href="#"><img src="img/project-p2.png" width="14%" class="logo-img" alt=""></a>
                                             </div>
                                         </div>
                                         <!--Logo End-->
@@ -168,10 +168,10 @@ session_start();
 
                                                         <li><a href=#>Our Products<span class="caret"></span></a>
                                                             <ul class="dropdown">
-                                                                <li><a href="products/category1.html">Category 1</a> </li>
-                                                                <li><a href="products/category2.html">Category 2</a> </li>
-                                                                <li><a href="products/category3.html"> Category 3></a> </li>
-                                                                <li><a href="products/category4.html">Category 4</a> </li>
+                                                                <li><a href="category/category1.html">Category 1</a> </li>
+                                                                <li><a href="category/category2.html">Category 2</a> </li>
+                                                                <li><a href="category/category3.html"> Category 3></a> </li>
+                                                                <li><a href="category/category4.html">Category 4</a> </li>
 
                                                             </ul>
                                                         </li>
@@ -206,10 +206,10 @@ session_start();
 
                                                         <li><a href=#>Our Products<span class="caret"></span></a>
                                                             <ul class="dropdown">
-                                                                <li><a href="products/category1.html">Category 1</a> </li>
-                                                                <li><a href="products/category2.html">Category 2</a> </li>
-                                                                <li><a href="products/category3.html" >Category 3></a> </li>
-                                                                <li><a href="products/category4.html">Category 4</a> </li>
+                                                                <li><a href="category/category1.html">Category 1</a> </li>
+                                                                <li><a href="category/category2.html">Category 2</a> </li>
+                                                                <li><a href="category/category3.html" >Category 3></a> </li>
+                                                                <li><a href="category/category4.html">Category 4</a> </li>
 
                                                             </ul>
                                                         </li>
@@ -555,7 +555,7 @@ session_start();
                     <div class="card">
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
-                            <img src="https://cdn.shopify.com/s/files/1/0432/2849/6022/products/lady-finger_434x.jpg?v=1603233095"class="card-img-top" width="400" height="250">
+                            <img src="https://cdn.shopify.com/s/files/1/0432/2849/6022/category/lady-finger_434x.jpg?v=1603233095"class="card-img-top" width="400" height="250">
 
                             <h5 class="card-title">Bhindi</h5>
                             <p class="card-text">Price: Rs.120</p>
@@ -574,7 +574,7 @@ session_start();
                     <div class="card">
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
-                        <img src="http://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-baby-corn-f1-hybrid-vegetable-seeds-16969051013260.jpg?v=1601347841"class="card-img-top" width="400" height="250">
+                        <img src="http://cdn.shopify.com/s/files/1/0047/9730/0847/category/nurserylive-seeds-baby-corn-f1-hybrid-vegetable-seeds-16969051013260.jpg?v=1601347841"class="card-img-top" width="400" height="250">
                             <h5 class="card-title">Baby_Corn</h5>
                             <p class="card-text">Price: Rs.60</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
@@ -625,7 +625,7 @@ session_start();
                                 <div class="single-footer">
                                     <!--Footer Logo Start-->
                                     <div class="footer-logo">
-                                        <a href="index-2.html"><img src="assets/img/footer-logo.png" width="33%"
+                                        <a href="index-2.html"><img src="img/footer-logo.png" width="33%"
                                                 alt=""></a>
                                     </div>
                                     <!--Footer Logo End-->
@@ -758,44 +758,44 @@ session_start();
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
-        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
         <!--Imagesloaded-->
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
         <!--Isotope-->
-        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
         <!--Ui js-->
-        <script src="assets/js/jquery-ui.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
         <!--Countdown-->
-        <script src="assets/js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
         <!--Counterup-->
-        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
         <!--ScrollUp-->
-        <script src="assets/js/jquery.scrollUp.min.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
         <!--Chosen js-->
-        <script src="assets/js/chosen.jquery.js"></script>
+        <script src="js/chosen.jquery.js"></script>
         <!--Meanmenu js-->
-        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <script src="js/jquery.meanmenu.min.js"></script>
         <!--Instafeed-->
-        <script src="assets/js/instafeed.min.js"></script>
+        <script src="js/instafeed.min.js"></script>
         <!--EasyZoom-->
-        <script src="assets/js/easyzoom.min.js"></script>
-            <script src="assets/js/jquery.fancybox.pack.js"></script>
+        <script src="js/easyzoom.min.js"></script>
+            <script src="js/jquery.fancybox.pack.js"></script>
         <!--Nivo Slider-->
-        <script src="assets/js/jquery.nivo.slider.js"></script>
+        <script src="js/jquery.nivo.slider.js"></script>
         <!--Waypoints-->
-        <script src="assets/js/waypoints.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
         <!--Carousel-->
-        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
         <!--Slick-->
-        <script src="assets/js/slick.min.js"></script>
+        <script src="js/slick.min.js"></script>
         <!--Wow-->
-        <script src="assets/js/wow.min.js"></script>
+        <script src="js/wow.min.js"></script>
         <!--Bootstrap-->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <!--Plugins-->
-        <script src="assets/js/plugins.js"></script>
+        <script src="js/plugins.js"></script>
         <!--Main Js-->
-        <script src="assets/js/main.js"></script>
+        <script src="js/main.js"></script>
 
     
 

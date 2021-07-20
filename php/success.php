@@ -10,49 +10,49 @@
     <title>Project P2</title>
 
 <!--theme swiching-->	
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-	<script src="js/theme.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+	<script src="../js/theme1.js"></script>
     	
 <!--pincode popup and validation -->	
-	<script src="js/pincode-validate.js"></script>
-	<script src="js/popup.js"></script>
-	<link rel="stylesheet" href="css/popup.css">
+	<script src="../js/pincode-validate.js"></script>
+	<script src="../js/popup.js"></script>
+	<link rel="stylesheet" href="../css/popup.css">
 	
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="__img/favicon.html">
 <!-- Ionicons Font CSS-->
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="../css/ionicons.min.css">
 <!-- font awesome CSS-->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
 
     
 <!-- UI CSS-->
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/jquery-ui.min.css">
 
     
 <!-- Meanmenu CSS (for mobile dropdown menus)-->
-    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <link rel="stylesheet" href="../css/meanmenu.min.css">
 
     
 
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/normalize.css">
 <!--Nivo Slider CSS-->
-    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="../css/nivo-slider.css">
 <!-- Owl Carousel CSS ( for display of featured products)-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
 
     
 <!-- Slick CSS-->
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="../css/slick.css">
 
 
 <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 <!-- Modernizr Js -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>    <style>
+    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>    <style>
       .btn {
   background-color: #4CAF50;
   color: rgb(253, 253, 253);
@@ -158,7 +158,7 @@ span.price {
 <!--Logo Start-->
                             <div class="col-md-9 col-sm-9 col-xs-4">
                                 <div class="logo">
-                                    <a href="#"><img src="assets/img/himvalue-logo.png" width="14%" class="logo-img"
+                                    <a href="#"><img src="../img/project-p2.png" width="14%" class="logo-img"
                                             alt=""></a>
                                 </div>
                             </div>
@@ -195,10 +195,10 @@ span.price {
 
                                             <li><a href=#>Our Products<span class="caret"></span></a>
                                                 <ul class="dropdown">
-                                                    <li><a href="products/category1.html">Category 1</a> </li>
-											    <li><a href="products/category2.html">Category 2</a> </li>
-											   <li><a href="products/category3.html">Category 3</a> </li>
-											   <li><a href="products/category4.html">Category 4</a> </li>
+                                                    <li><a href="category/category1.html">Category 1</a> </li>
+											    <li><a href="category/category2.html">Category 2</a> </li>
+											   <li><a href="category/category3.html">Category 3</a> </li>
+											   <li><a href="category/category4.html">Category 4</a> </li>
 
                                                 </ul>
                                             </li>
@@ -233,10 +233,10 @@ span.price {
 
                                             <li><a href=#>Our Products<span class="caret"></span></a>
                                                 <ul class="dropdown">
-                                                    <li><a href="products/product1.html">Product 1</a> </li>
-                                                    <li><a href="products/product2.html">Product 2</a> </li>
-                                                    <li><a href="products/product3.html">Product 3</a> </li>
-                                                    <li><a href="products/product4.html">Product 4</a> </li>
+                                                    <li><a href="category/product1.html">Product 1</a> </li>
+                                                    <li><a href="category/product2.html">Product 2</a> </li>
+                                                    <li><a href="category/product3.html">Product 3</a> </li>
+                                                    <li><a href="category/product4.html">Product 4</a> </li>
 
                                                 </ul>
                                             </li>
@@ -312,7 +312,7 @@ span.price {
                               <div class="single-footer">
  <!--Footer Logo Start-->
                                   <div class="footer-logo">
-                                      <a href="index-2.html"><img src="assets/img/footer-logo.png" width="33%"
+                                      <a href="index-2.html"><img src="img/footer-logo.png" width="33%"
                                               alt=""></a>
                                   </div>
  <!--Footer Logo End-->
@@ -440,53 +440,53 @@ span.price {
 <!--All Js Here-->
 
 <!--Jquery 1.12.4-->
-      <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+      <script src="../js/vendor/jquery-1.12.4.min.js"></script>
 <!--Imagesloaded-->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
           integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
           crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.../js/1.12.9/umd/popper.min.js"
           integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
           crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/../js/bootstrap.min.js"
           integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
           crossorigin="anonymous"></script>
-      <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+      <script src="../js/imagesloaded.pkgd.min.js"></script>
 <!--Isotope-->
-      <script src="assets/js/isotope.pkgd.min.js"></script>
+      <script src="../js/isotope.pkgd.min.js"></script>
 <!--Ui js-->
-      <script src="assets/js/jquery-ui.min.js"></script>
+      <script src="../js/jquery-ui.min.js"></script>
 <!--Countdown-->
-      <script src="assets/js/jquery.countdown.min.js"></script>
+      <script src="../js/jquery.countdown.min.js"></script>
 <!--Counterup-->
-      <script src="assets/js/jquery.counterup.min.js"></script>
+      <script src="../js/jquery.counterup.min.js"></script>
 <!--ScrollUp-->
-      <script src="assets/js/jquery.scrollUp.min.js"></script>
+      <script src="../js/jquery.scrollUp.min.js"></script>
 <!--Chosen js-->
-      <script src="assets/js/chosen.jquery.js"></script>
+      <script src="../js/chosen.jquery.js"></script>
 <!--Meanmenu js-->
-      <script src="assets/js/jquery.meanmenu.min.js"></script>
+      <script src="../js/jquery.meanmenu.min.js"></script>
 <!--Instafeed-->
-      <script src="assets/js/instafeed.min.js"></script>
+      <script src="../js/instafeed.min.js"></script>
 <!--EasyZoom-->
-      <script src="assets/js/easyzoom.min.js"></script>
-      <script src="assets/js/jquery.fancybox.pack.js"></script>
+      <script src="../js/easyzoom.min.js"></script>
+      <script src="../js/jquery.fancybox.pack.js"></script>
 <!--Nivo Slider-->
-      <script src="assets/js/jquery.nivo.slider.js"></script>
+      <script src="../js/jquery.nivo.slider.js"></script>
 <!--Waypoints-->
-      <script src="assets/js/waypoints.min.js"></script>
+      <script src="../js/waypoints.min.js"></script>
 <!--Carousel-->
-      <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="../js/owl.carousel.min.js"></script>
 <!--Slick-->
-      <script src="assets/js/slick.min.js"></script>
+      <script src="../js/slick.min.js"></script>
 <!--Wow-->
-      <script src="assets/js/wow.min.js"></script>
+      <script src="../js/wow.min.js"></script>
 <!--Bootstrap-->
-      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
 <!--Plugins-->
-      <script src="assets/js/plugins.js"></script>
+      <script src="../js/plugins.js"></script>
 <!--Main Js-->
-      <script src="assets/js/main.js"></script>
+      <script src="../js/main.js"></script>
 </body>
 
 <!-- Mirrored from himvalue.com/near-by-attraction by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Jun 2021 19:27:57 GMT -->
