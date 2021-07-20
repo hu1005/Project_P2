@@ -43,7 +43,7 @@ session_start();
     
     
     
-    <link rel="stylesheet" href="css/normalize.css">
+    
     <!--Nivo Slider CSS(for all sliders)-->
     <link rel="stylesheet" href="css/nivo-slider.css">
     <!-- Owl Carousel CSS ( for display of featured products)-->
@@ -498,7 +498,7 @@ session_start();
 
         <!--All Js Here-->
 
-        <!--Jquery 1.12.4-->
+        <!--Jquery 1.12.4(for basic jQuery for nivo slider and scroll up JS files)-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
@@ -513,13 +513,13 @@ session_start();
         
         
     
-        <!--Ui js-->
-        <script src="js/jquery-ui.min.js"></script>
         
         
         
         
-        <!--ScrollUp-->
+        
+        
+        <!--Scroll Up(for back to top button)-->
         <script src="js/jquery.scrollUp.min.js"></script>
         
         

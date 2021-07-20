@@ -38,7 +38,7 @@
 
     
 
-    <link rel="stylesheet" href="../css/normalize.css">
+    
 <!--Nivo Slider CSS(for all sliders)-->
     <link rel="stylesheet" href="../css/nivo-slider.css">
 <!-- Owl Carousel CSS ( for display of featured products)-->
@@ -389,7 +389,7 @@ span.price {
                                       <p>Kotabagh, Nainital, Uttarakhand<br /> India, Pin- 263159 </p>
                                       <p><label>Phone:</label> +91-7248383768</p>
                                       <p><label>Phone:</label> +91-7300859006</p>
-                                      <p><label>Email:</label> info@himvalue.com</a></p>
+                                      <p><label>Email:</label> info@Project P2.com</a></p>
                                   </div>
 
                               </div>
@@ -439,7 +439,7 @@ span.price {
 
 <!--All Js Here-->
 
-<!--Jquery 1.12.4-->
+<!--Jquery 1.12.4(for basic jQuery for nivo slider and scroll up JS files)-->
       <script src="../js/vendor/jquery-1.12.4.min.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -454,13 +454,13 @@ span.price {
       
 
       
-<!--Ui js-->
-      <script src="../js/jquery-ui.min.js"></script>
 
       
 
       
-<!--ScrollUp-->
+
+      
+<!--Scroll Up(for back to top button)-->
       <script src="../js/jquery.scrollUp.min.js"></script>
 
       
@@ -489,6 +489,6 @@ span.price {
       <script src="../js/main.js"></script>
 </body>
 
-<!-- Mirrored from himvalue.com/near-by-attraction by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Jun 2021 19:27:57 GMT -->
+<!-- Mirrored from Project P2.com/near-by-attraction by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Jun 2021 19:27:57 GMT -->
 
 </html>

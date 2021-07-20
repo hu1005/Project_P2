@@ -38,7 +38,7 @@ session_start();
     
     
     
-    <link rel="stylesheet" href="css/normalize.css">
+    
     <!--Nivo Slider CSS(for all sliders)-->
     <link rel="stylesheet" href="css/nivo-slider.css">
     <!-- Owl Carousel CSS ( for display of featured products)-->
@@ -477,7 +477,7 @@ session_start();
                     <div class="card">
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
-                            <img src="https://post.medicalnewstoday.com/wp-content/category/product_images/sites/3/2020/02/270678_1100-800x825.jpg"class="card-img-top" width="400" height="250">
+                            <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/270678_1100-800x825.jpg"class="card-img-top" width="400" height="250">
 
                             <h5 class="card-title">Celery</h5>
                             <p class="card-text">Price: Rs.320</p>
@@ -496,7 +496,7 @@ session_start();
                     <div class="card">
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
-                        <img src="https://www.bigbasket.com/media/category/product_images/p/l/40138448_3-fresho-baby-spinach.jpg"class="card-img-top" width="400" height="250">
+                        <img src="https://www.bigbasket.com/media/uploads/p/l/40138448_3-fresho-baby-spinach.jpg"class="card-img-top" width="400" height="250">
                             <h5 class="card-title">Baby_Spinach</h5>
                             <p class="card-text">Price: Rs.150</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
@@ -555,7 +555,7 @@ session_start();
                     <div class="card">
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
-                            <img src="https://cdn.shopify.com/s/files/1/0432/2849/6022/category/lady-finger_434x.jpg?v=1603233095"class="card-img-top" width="400" height="250">
+                            <img src="https://cdn.shopify.com/s/files/1/0432/2849/6022/products/lady-finger_434x.jpg?v=1603233095"class="card-img-top" width="400" height="250">
 
                             <h5 class="card-title">Bhindi</h5>
                             <p class="card-text">Price: Rs.120</p>
@@ -574,7 +574,7 @@ session_start();
                     <div class="card">
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
-                        <img src="http://cdn.shopify.com/s/files/1/0047/9730/0847/category/nurserylive-seeds-baby-corn-f1-hybrid-vegetable-seeds-16969051013260.jpg?v=1601347841"class="card-img-top" width="400" height="250">
+                        <img src="http://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-baby-corn-f1-hybrid-vegetable-seeds-16969051013260.jpg?v=1601347841"class="card-img-top" width="400" height="250">
                             <h5 class="card-title">Baby_Corn</h5>
                             <p class="card-text">Price: Rs.60</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
@@ -748,7 +748,7 @@ session_start();
 
         <!--All Js Here-->
 
-        <!--Jquery 1.12.4-->
+        <!--Jquery 1.12.4(for basic jQuery for nivo slider and scroll up JS files)-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
@@ -763,13 +763,13 @@ session_start();
         
         
     
-        <!--Ui js-->
-        <script src="js/jquery-ui.min.js"></script>
         
         
         
         
-        <!--ScrollUp-->
+        
+        
+        <!--Scroll Up(for back to top button)-->
         <script src="js/jquery.scrollUp.min.js"></script>
         
         
