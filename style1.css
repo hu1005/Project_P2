@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i|Raleway:400,700,900|Shadows+Into+Light');
+#pincode{
+	color:#fff;
+	height:35px;
+	padding:0px;
+}
+
+#submitpin{
+	height:20px;
+}
+#closepin{
+	height:20px;
+}
+
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 .form-container{
@@ -7,8 +20,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 10px;
   color: white;
   cursor: pointer;
-  width: 250px;
-  height: 190px;
+  width: 235px;
+   height: 133px;
   border: 3px solid #f1f1f1;
   border-radius:10px;
   margin-bottom:10px;
@@ -31,13 +44,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .btn {
-  background-color: #68b501;
+ display:inline-block;
+ background-color: #68b501;
   color: white;
-
   border: none;
   cursor: pointer;
   width: 100%;
-  margin-bottom:10px;
+  margin-bottom:2px;
   opacity: 0.8;
 }
 .open-button {
@@ -50,7 +63,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 0.8;
   position: fixed;
   bottom: ;
-  right: 100px;
   width: 170px;
 }
 
@@ -67,7 +79,6 @@ color:#fff;}
   cursor: pointer;
   opacity: 0.8;
   position: fixed;
-  right: 0px;
   width:100px;
 
 }
@@ -132,8 +143,7 @@ a,
     border-radius: 0px;
     font-size: 14px;
     padding: 0px 15px;
-    height: 30px;
-    line-height: 30px;
+
 }
 a:focus,
 .btn:focus {

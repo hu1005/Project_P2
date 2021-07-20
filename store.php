@@ -72,85 +72,108 @@ session_start();
                 </div>
             </div>
         </div>
-    <button class="open-button" onclick="openForm()">Check Service Availability</button>
-
-    <div class="form-popup" id="myForm">
-        <form action="" class="form-container">
-            <input id="pincode" placeholder="Enter PINCODE" maxlength="6"> <br>
-            <button type="button" class="btn" onclick="myFunction()">Submit</button>
-            <button type="button" class="btn" onclick="closeForm()">Close</button>
-        </form>
-    </div>
-
-
+                                 
     <div class="wrapper home-5">
         <!--Header Area Start-->
         <header>
 
-            <div class="header-container">
+           <div class="header-container">
+																							   
+
+	   
 
 
-                <button id="themetoggle" onclick="toggleTheme()">Switch Theme</button>
+               <!--Header Top Area Start--> 
+              <div class="header-top-area">
+                   <div class="container">
+                       <div class="row">
+ <!--Header Top Left Area Start-->
+                            <div class="col-md-3 col-sm-4 col-xs-12 hidden-xs">                               <div class="header-top-menu">
+                                   <ul>
+                                       <li>
+                                          <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
+										  
+                                       </li>
 
-                <!--Header Top Area Start-->
-                <div class="header-top-area">
-                    <div class="container">
-                        <div class="row">
-                            <!--Header Top Left Area Start-->
-                            <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
-                                <div class="header-top-menu">
-                                    <ul>
-                                        <li>
-                                            <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
-                                        
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                                   </ul>
+                               </div>
+							   
+                           </div>
+						    <div class="col-md-2 col-sm-9 col-xs-2 text-center">
+                               <div class="header-top-menu">
+                                   <ul>
+										<li>
+										                                           <button id="themetoggle" onclick="toggleTheme()">Switch Theme</button>
+ 
+                                       </li>
 
-                            <div class="col-md-4 col-sm-4 col-xs-12 hidden-xs">
-                                <div class="header-top-menu">
+                                   </ul>
+                               </div>
+							   
+                           </div>
+						   <div class="col-md-4 col-sm-9 col-xs-2 text-center">
+                               <div class="header-top-menu">
+                                   <ul>
+                                       <li>
+										                                            <button class="open-button" onclick="openForm()">Check Service Availability</button>
 
-                                </div>
-                            </div>
-                            <!--Header Top Right Area Start-->
-                            <div class="col-md-8 col-sm-8 hidden-xs text-right">
-                                <div class="header-top-menu">
-                                    <ul>
-                                        <li class="support"><span><a id="signup" href="signup.html">Sign Up | </a><a id="login" href="login.html">Login</a></span></li>
+                                       </li>
 
-                                    </ul>
-                                </div>
-                            </div>
-                            <!--Header Top Right Area End-->
-                            <!--Header Top Area End-->
-                            <!--Header Middel Area Start-->
-                            <div class="header-middel-area">
-                                <div class="container">
-                                    <div class="row">
-                                        <!--Logo Start-->
-                                        <div class="col-md-9 col-sm-9 col-xs-4">
-                                            <div class="logo">
-                                                <img src="img/project-p2.png" width="14%" class="logo-img" alt=""></a>
-                                            </div>
-                                        </div>
-                                        <!--Logo End-->
 
-                                        <!--Mini Cart Start-->
-                                        <div class="col-md-3 col-sm-4 col-xs-8">
-                                            <div class="mini-cart-area">
-                                                <ul>
-                                                    <li>
+                                   </ul>
+                               </div>
+							   
+                           </div>
+						     
+						 <div class="col-md-3 col-sm-8 hidden-xs text-center">
+                               <div class="header-top-menu">
+                                   <ul>
+                                       <li class="support"><span><a id="signup" href = "signup.html">Sign Up | </a><a id="login"href = "login.html">Login</a></span></li>
+                                      
+                                   </ul>
+                               </div>
+                           </div>   
+						   <!--Header Top Right Area End-->
+               <!--Header Top Area End-->
+               <!--Header Middel Area Start-->
+               <div class="header-middel-area">
+                   <div class="container">
+                       <div class="row">
+                           <!--Logo Start-->
+                           <div class="col-md-7 col-sm-9 col-xs-1">
+                               <div class="logo">
+                                   <img src="img/project-p2.png" width="100%" class="logo-img"
+                                    alt=""></a>
+
+                               </div>
+                           </div>
+						   
+                           <!--Logo End-->
+                      <div class="col-md-1 col-sm-9 col-xs-1 text-centre">
+                               <div class="form-popup" id="myForm">
+  <form action="" class="form-container">
+<input id="pincode" placeholder="Enter PINCODE"maxlength="6"> <br>
+										  <button type="button" class="btn" onclick="myFunction()">Submit</button>
+										  <button type="button" class="btn" onclick="closeForm()">Close</button>
+  </form>
+</div>
+                           </div>
+                           <!--Mini Cart Start-->
+                           <div class="col-md-3 col-sm-4 col-xs-8 text-right">
+                               <div class="mini-cart-area">
+                                   <ul>
+
+                                       <li>
                                                         <a href="mycart.php"><i class="ion-android-cart"></i><span class="cart-add"><?php echo $count; ?></span><span class="cart-total"> My Cart (<?php echo $count; ?>)</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!--Mini Cart End-->
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Header Middel Area End-->
+                                                                               </li>
+                                   </ul>
+                               </div>
+                           </div>
+                           <!--Mini Cart End-->
+                       </div>
+                   </div>
+               </div>
+               <!--Header Middel Area End-->
                             <!--Header bottom Area Start-->
                             <div class="header-bottom-area header-sticky">
                                 <div class="container">

@@ -15,10 +15,10 @@ $rs = mysqli_query($con,$sql);
       $result = $row['name'];
    	}
 
-$to_email = "hupadhyay2012@gmail.com";
+$to_email = "projectp2intern@gmail.com";
 $subject = "Your Username"; 
 $body = "Hi,We just received your forgot username request. The username for the entered Phone :- $phone is:- $result";
-$headers = "From: hupadhyay2012@gmail.com";
+$headers = "From: projectp2intern@gmail.com";
 
 if(mail($to_email, $subject, $body, $headers)) 
 {
