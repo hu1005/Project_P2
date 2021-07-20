@@ -11,17 +11,16 @@
 #closepin{
 	height:20px;
 }
-
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 .form-container{
   background-color: #fff;
-   max-width: 300px;
+   max-width: 155px;
   padding: 10px;
   color: white;
   cursor: pointer;
   width: 235px;
-   height: 133px;
+  height: 133px;
   border: 3px solid #f1f1f1;
   border-radius:10px;
   margin-bottom:10px;
