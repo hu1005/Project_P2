@@ -10,23 +10,23 @@
     <title>Project P2</title>
 
 <!--theme swiching-->	
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
 	<script src="../js/theme1.js"></script>
     	
 <!--pincode popup and validation -->	
 	<script src="../js/pincode-validate.js"></script>
 	<script src="../js/popup.js"></script>
-	<link rel="stylesheet" href="../css/popup.css">
+	<link rel="stylesheet" href="css/popup.css">
 	
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
     
 <!-- Ionicons Font CSS-->
-    <link rel="stylesheet" href="../css/ionicons.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
 <!-- font awesome CSS-->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     
 
@@ -34,15 +34,15 @@
 
     
 <!-- Meanmenu CSS (for mobile dropdown menus)-->
-    <link rel="stylesheet" href="../css/meanmenu.min.css">
+    <link rel="stylesheet" href="css/meanmenu.min.css">
 
     
 
     
 <!--Nivo Slider CSS(for all sliders)-->
-    <link rel="stylesheet" href="../css/nivo-slider.css">
+    <link rel="stylesheet" href="css/nivo-slider.css">
 <!-- Owl Carousel CSS ( for display of featured products)-->
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
     
 
@@ -117,7 +117,7 @@ span.price {
                             <div class="col-md-3 col-sm-4 col-xs-12 hidden-xs">                               <div class="header-top-menu">
                                    <ul>
                                        <li>
-                                          <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
+                                          <i class="fa fa-envelope-o"> projectp2intern@gmail.com | </i><i class="fa fa-phone"> +91-99999-99999 </i>
 										  
                                        </li>
 

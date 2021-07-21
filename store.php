@@ -91,7 +91,7 @@ session_start();
                             <div class="col-md-3 col-sm-4 col-xs-12 hidden-xs">                               <div class="header-top-menu">
                                    <ul>
                                        <li>
-                                          <i class="fa fa-envelope-o"> hupadhyay1005@gmail.com | </i><i class="fa fa-phone"> +91-9462642837 </i>
+                                          <i class="fa fa-envelope-o"> projectp2intern@gmail.com | </i><i class="fa fa-phone"> +91-99999-99999 </i>
 										  
                                        </li>
 
@@ -723,8 +723,8 @@ session_start();
                                     <div class="footer-title">
                                         <h3>ADDRESS</h3>
                                    <p>Jaipur, Rajasthan<br/> India, Pin- 302033 </p>    
-                                        <p><label>Phone:</label> +91-9462642837</p>
-                                        <p><label>Email:</label> hupadhyay1005@gmail.com</a></p>
+                                        <p><label>Phone:</label> +91-99999-99999</p>
+                                        <p><label>Email:</label> projectp2intern@gmail.com</a></p>
                                     </div>
 
                                 </div>
