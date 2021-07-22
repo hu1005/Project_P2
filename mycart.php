@@ -422,16 +422,7 @@ session_start();
                             <div class="col-md-2 col-sm-6">
                                 <div class="single-footer mt-30">
                                     <div class="footer-title">
-                                        <h3>information</h3>
                                     </div>
-                                    <ul class="footer-info">
-                                        <li>Home</a></li>
-                                        <li>About Us</a></li>
-                                        <li>Near By Attraction</a></li>
-                                        <li>Contact</a></li>
-
-
-                                    </ul>
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-6">
@@ -440,10 +431,10 @@ session_start();
                                         <h3>information</h3>
                                     </div>
                                     <ul class="footer-info">
-                                        <li>Home</a></li>
-                                        <li>About Us</a></li>
-                                        <li>Near By Attraction</a></li>
-                                        <li>Contact</a></li>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="near-by-attraction.html">Near By Attraction</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
 
 
                                     </ul>
@@ -458,7 +449,7 @@ session_start();
                                     </div>
                                     <ul class="footer-info">
                                         <li>My Account</a></li>
-                                        <li>Contact</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
                                         <li>Shopping cart</a></li>
                                         <li>Checkout</a></li>
                                         <li>Portfolio</a></li>

@@ -291,7 +291,7 @@ span.price {
         <div class="row"  style="padding:100px 300px;">
           <div class="col-50">
             <div class="container1" >
-              <form  action="success.php" method="post" style="padding: 25px;">
+              <form  action="php/success.php" method="post" style="padding: 25px;">
               
                 <div class="row" >
                   <div class="col-25">
@@ -301,22 +301,22 @@ span.price {
         <div class="form-group">
                     <label for="fname"><i class="fa fa-user"></i> Full Name</label>
 
-                    <input type="text" id="fname" name="name" placeholder="Enter name">
+                    <input type="text" id="fname" name="cp_name" placeholder="Enter name">
                     </div>
                     <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                    <input type="text" id="email" name="email" placeholder="Enter email">
+                    <input type="text" id="email" name="cp_email" placeholder="Enter email">
                     <input type="hidden" value="<?php echo 'OID'.rand(100,1000);?>" name="orderid">
                     <input type="hidden" value="<?php echo 1;?>" name="amount">
                     <label for="city"><i class="fa fa-mobile"></i> Mobile</label>
-                    <input type="text" id="city" name="mobile" placeholder="Mobile Number">
+                    <input type="text" id="city" name="cp_mobile" placeholder="Mobile Number">
                     <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                    <input type="text" id="adr" name="cp_address" placeholder="542 W. 15th Street">
         
         
                   
                 </div>
                
-                <button type="submit" class="btn btn-primary">Pay Now</button>
+                <button type="submit" class="btn btn-primary">Place Order</button>
               </form>
             </div>
           </div>
@@ -375,16 +375,7 @@ span.price {
                           <div class="col-md-2 col-sm-6">
                               <div class="single-footer mt-30">
                                   <div class="footer-title">
-                                      <h3>information</h3>
                                   </div>
-                                  <ul class="footer-info">
-                                      <li>Home</a></li>
-                                      <li>About Us</a></li>
-                                      <li>Near By Attraction</a></li>
-                                      <li>Contact</a></li>
-
-
-                                  </ul>
                               </div>
                           </div>
                           <div class="col-md-2 col-sm-6">
@@ -393,10 +384,10 @@ span.price {
                                       <h3>information</h3>
                                   </div>
                                   <ul class="footer-info">
-                                      <li>Home</a></li>
-                                      <li>About Us</a></li>
-                                      <li>Near By Attraction</a></li>
-                                      <li>Contact</a></li>
+                                      <li><a href="index.html">Home</a></li>
+                                      <li><a href="about.html">About Us</a></li>
+                                      <li><a href="near-by-attraction.html">Near By Attraction</a></li>
+                                      <li><a href="contact.html">Contact Us</a></li>
 
 
                                   </ul>
@@ -411,7 +402,7 @@ span.price {
                                   </div>
                                   <ul class="footer-info">
                                       <li>My Account</a></li>
-                                      <li>Contact</a></li>
+                                      <li><a href="contact.html">Contact Us</a></li>
                                       <li>Shopping cart</a></li>
                                       <li>Checkout</a></li>
                                       <li>Portfolio</a></li>
@@ -526,7 +517,4 @@ span.price {
 <!--Main Js-->
       <script src="js/main.js"></script>
 </body>
-
-<!-- Mirrored from Project P2.com/near-by-attraction by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Jun 2021 19:27:57 GMT -->
-
 </html>
