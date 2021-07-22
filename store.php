@@ -142,8 +142,8 @@ session_start();
                            <!--Logo Start-->
                            <div class="col-md-7 col-sm-9 col-xs-1">
                                <div class="logo">
-                                   <img src="img/project-p2.png" width="100%" class="logo-img"
-                                    alt=""></a>
+                                   
+                                    
 
                                </div>
                            </div>
@@ -189,15 +189,9 @@ session_start();
                                                         <li id="home"><a href="index.html">Home</a></li>
 
 
-                                                        <li><a href=#>Our Products<span class="caret"></span></a>
-                                                            <ul class="dropdown">
-                                                                <li><a href="category/category1.html">Category 1</a> </li>
-                                                                <li><a href="category/category2.html">Category 2</a> </li>
-                                                                <li><a href="category/category3.html"> Category 3</a> </li>
-                                                                <li><a href="category/category4.html">Category 4</a> </li>
-
-                                                            </ul>
-                                                        </li>
+                                                      
+                                                        <li class="active"><a href="store.php">Our Store</a></li>
+                                                    
 
                                                         </li>
 
@@ -206,8 +200,15 @@ session_start();
 
                                                         
                                                         <li><a href="contact.html">Contact us</a></li>
-                                                        <li class="active"><a href="store.php">Our Store</a></li>
-                                                    </ul>
+														  <li><a href=#>Our Products<span class="caret"></span></a>
+                                                            <ul class="dropdown">
+                                                                <li><a href="category/category1.html">Category 1</a> </li>
+                                                                <li><a href="category/category2.html">Category 2</a> </li>
+                                                                <li><a href="category/category3.html"> Category 3</a> </li>
+                                                                <li><a href="category/category4.html">Category 4</a> </li>
+
+                                                            </ul>
+                                                        </li></ul>
                                                 </nav>
                                             </div>
                                             <!--Main Menu Area End-->
@@ -227,7 +228,17 @@ session_start();
                                                         <li id="home"><a href="index.html">Home</a></li>
 
 
-                                                        <li><a href=#>Our Products<span class="caret"></span></a>
+                                                        <li class="active"><a href="store.php">Our Store</a></li>
+
+                                                      
+                                                        </li>
+
+                                                        <li><a href="about.html">About Us</a></li>
+                                                        <li><a href="near-by-attraction.html">Near By Attraction</a></li>
+
+                                                        
+                                                        <li><a href="contact.html">Contact us</a></li>
+														  <li><a href=#>Our Products<span class="caret"></span></a>
                                                             <ul class="dropdown">
                                                                 <li><a href="category/category1.html">Category 1</a> </li>
                                                                 <li><a href="category/category2.html">Category 2</a> </li>
@@ -236,15 +247,6 @@ session_start();
 
                                                             </ul>
                                                         </li>
-
-                                                        </li>
-
-                                                        <li><a href="about.html">About Us</a></li>
-                                                        <li><a href="near-by-attraction.html">Near By Attraction</a></li>
-
-                                                        
-                                                        <li><a href="contact.html">Contact us</a></li>
-                                                        <li class="active"><a href="store.php">Our Store</a></li>
 
                                                     </ul>
                                                 </nav>
@@ -648,8 +650,8 @@ session_start();
                                 <div class="single-footer">
                                     <!--Footer Logo Start-->
                                     <div class="footer-logo">
-                                        <a href="index-2.html"><img src="img/footer-logo.png" width="33%"
-                                                alt=""></a>
+                                        
+                                                
                                     </div>
                                     <!--Footer Logo End-->
                                     <!--Footer Content Start-->

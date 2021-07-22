@@ -11,12 +11,12 @@
 
 <!--theme swiching-->	
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-	<script src="js/theme.js"></script>
+    <link rel="stylesheet" href="../style.css">
+	<script src="../js/theme1.js"></script>
     	
 <!--pincode popup and validation -->	
-	<script src="js/pincode-validate.js"></script>
-	<script src="js/popup.js"></script>
+	<script src="../js/pincode-validate.js"></script>
+	<script src="../js/popup.js"></script>
 	<link rel="stylesheet" href="css/popup.css">
 	
 
@@ -213,7 +213,8 @@ span.price {
 
                                            <li><a href="store.php">Our Store</a></li>
 
-                                            
+
+                                           
 
                                             </li>
 
@@ -222,7 +223,7 @@ span.price {
 
                                             
                                             <li><a href="contact.html">Contact us</a></li>
-											<li><a href=#>Our Products<span class="caret"></span></a>
+											 <li><a href=#>Our Products<span class="caret"></span></a>
                                                 <ul class="dropdown">
                                                     <li><a href="category/category1.html">Category 1</a> </li>
 											    <li><a href="category/category2.html">Category 2</a> </li>
@@ -231,6 +232,7 @@ span.price {
 
                                                 </ul>
                                             </li>
+											
 
                                         </ul>
                                     </nav>
@@ -253,7 +255,7 @@ span.price {
 
                                            <li><a href="store.php">Our Store</a></li>
 
-                                          
+                                           
 
                                             </li>
 
@@ -263,7 +265,7 @@ span.price {
 
                                             
                                             <li><a href="contact.html">Contact us</a></li>
-											  <li><a href=#>Our Products<span class="caret"></span></a>
+											 <li><a href=#>Our Products<span class="caret"></span></a>
                                                 <ul class="dropdown">
                                                     <li><a href="category/product1.html">Product 1</a> </li>
                                                     <li><a href="category/product2.html">Product 2</a> </li>
@@ -291,32 +293,15 @@ span.price {
         <div class="row"  style="padding:100px 300px;">
           <div class="col-50">
             <div class="container1" >
-              <form  action="php/payscript.php" method="post" style="padding: 25px;">
+              <form  action="payscript.php" method="post" style="padding: 25px;">
               
                 <div class="row" >
                   <div class="col-25">
-                    <h2 style="text-align: center;margin:20px 10px;font-family: lato;">Checkout Form</h2>
+                    <h2 style="text-align: center;margin:20px 10px;font-family: lato;">Your Order Has Been Placed Successfully</h2>
 
-                  
-        <div class="form-group">
-                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-
-                    <input type="text" id="fname" name="name" placeholder="Enter name">
-                    </div>
-                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                    <input type="text" id="email" name="email" placeholder="Enter email">
-                    <input type="hidden" value="<?php echo 'OID'.rand(100,1000);?>" name="orderid">
-                    <input type="hidden" value="<?php echo 1;?>" name="amount">
-                    <label for="city"><i class="fa fa-mobile"></i> Mobile</label>
-                    <input type="text" id="city" name="mobile" placeholder="Mobile Number">
-                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-        
-        
                   
                 </div>
                
-                <button type="submit" class="btn btn-primary">Pay Now</button>
               </form>
             </div>
           </div>
@@ -478,20 +463,20 @@ span.price {
 <!--All Js Here-->
 
 <!--Jquery 1.12.4(for basic jQuery for nivo slider and scroll up JS files)-->
-      <script src="js/vendor/jquery-1.12.4.min.js"></script>
+      <script src="../js/vendor/jquery-1.12.4.min.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
           integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
           crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.../js/1.12.9/umd/popper.min.js"
           integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
           crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/../js/bootstrap.min.js"
           integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
           crossorigin="anonymous"></script>
       
 
-  
+      
 
       
 
@@ -499,32 +484,32 @@ span.price {
 
       
 <!--Scroll Up(for back to top button)-->
-      <script src="js/jquery.scrollUp.min.js"></script>
+      <script src="../js/jquery.scrollUp.min.js"></script>
 
       
 <!-- Meanmenu JS (for mobile dropdown menus)-->
-      <script src="js/jquery.meanmenu.min.js"></script>
+      <script src="../js/jquery.meanmenu.min.js"></script>
 
       
 
       
-      <script src="js/jquery.fancybox.pack.js"></script>
+      <script src="../js/jquery.fancybox.pack.js"></script>
 <!--Nivo Slider JS(for all sliders)-->
-      <script src="js/jquery.nivo.slider.js"></script>
+      <script src="../js/jquery.nivo.slider.js"></script>
 <!--Waypoints-->
-      <script src="js/waypoints.min.js"></script>
+      <script src="../js/waypoints.min.js"></script>
 <!-- Owl Carousel JS ( for display of featured products)-->
-      <script src="js/owl.carousel.min.js"></script>
+      <script src="../js/owl.carousel.min.js"></script>
 
-      
+      <script src="../js/slick.min.js"></script>
 
       
 <!--Bootstrap-->
-      <script src="js/bootstrap.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
 
       
 <!--Main Js-->
-      <script src="js/main.js"></script>
+      <script src="../js/main.js"></script>
 </body>
 
 <!-- Mirrored from Project P2.com/near-by-attraction by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Jun 2021 19:27:57 GMT -->
