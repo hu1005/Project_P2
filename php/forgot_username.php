@@ -8,6 +8,8 @@ error_reporting(0);
 // database insert SQL code
 $sql = "Select name from signup where(phone = '$phone' && email = '$email')";
 
+//$email for users email we can update it on line 20 to_email section of the PHP mail function
+
 // insert in database 
 $rs = mysqli_query($con,$sql);
 
