@@ -274,11 +274,11 @@ session_start();
                         <div class="card-body text-center">
                             <img src="https://cdn.britannica.com/27/171027-050-7F7889C9/flower-buds-clove-tree.jpg" class="card-img-top" width="400" height="250">
 
-                            <h5 class="card-title">Cloves</h5>
-                            <p class="card-text">Price: Rs.190</p>
+                            <h5 class="card-title">Cloves (50g)</h5>
+                            <p class="card-text">Price: Rs.74</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Cloves">
-                            <input type="hidden" name="Price" value="190">
+                            <input type="hidden" name="Item_Name" value="Cloves (50g)">
+                            <input type="hidden" name="Price" value="74">
 
                         </div>
                     </div>
@@ -294,11 +294,11 @@ session_start();
                             <img src="https://m.media-amazon.com/images/I/616kCiMkUKL._SX679_.jpg"class="card-img-top" width="400" height="250">
                             
 
-                            <h5 class="card-title">Chilli_Powder</h5>
-                            <p class="card-text">Price: Rs.52</p>
+                            <h5 class="card-title">Chilli Powder (500g)</h5>
+                            <p class="card-text">Price: Rs.230</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Chilli_Powder">
-                            <input type="hidden" name="Price" value="52">
+                            <input type="hidden" name="Item_Name" value="Chilli Powder (500g)">
+                            <input type="hidden" name="Price" value="230">
 
                         </div>
                     </div>
@@ -312,11 +312,11 @@ session_start();
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
                         <img src="https://images-na.ssl-images-amazon.com/images/I/71OFZ3vXuxL._SX679_.jpg"class="card-img-top" width="400" height="250">
-                            <h5 class="card-title">Cardamom</h5>
-                            <p class="card-text">Price: Rs.188</p>
+                            <h5 class="card-title">Cardamom (50g)</h5>
+                            <p class="card-text">Price: Rs.190</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Cardamom">
-                            <input type="hidden" name="Price" value="188">
+                            <input type="hidden" name="Item_Name" value="Cardamom (50g)">
+                            <input type="hidden" name="Price" value="190">
 
                         </div>
                     </div>
@@ -330,11 +330,11 @@ session_start();
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
                         <img src="https://5.imimg.com/data5/FO/UI/IF/SELLER-38612494/black-pepper-500x500.jpg" class="card-img-top" width="400" height="250">
-                            <h5 class="card-title">Black_Pepper</h5>
-                            <p class="card-text">Price: Rs.171</p>
+                            <h5 class="card-title">Black Pepper (100g)</h5>
+                            <p class="card-text">Price: Rs.76</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Black_Pepper">
-                            <input type="hidden" name="Price" value="171">
+                            <input type="hidden" name="Item_Name" value="Black Pepper (100g)">
+                            <input type="hidden" name="Price" value="76">
 
                         </div>
                     </div>
@@ -354,10 +354,10 @@ session_start();
                         <div class="card-body text-center">
                             <img src="https://www.thespruceeats.com/thmb/WYCG08Ec_5SwLNIju1cyCT12Nno=/1147x860/smart/filters:no_upscale()/sb10069325z-001-56a497ba5f9b58b7d0d7b917.jpg" class="card-img-top" width="400" height="250">
 
-                            <h5 class="card-title">Coriander</h5>
+                            <h5 class="card-title">Coriander Powder (200g)</h5>
                             <p class="card-text">Price: Rs.48</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Coriander">
+                            <input type="hidden" name="Item_Name" value="Coriander Powder (200g)">
                             <input type="hidden" name="Price" value="48">
 
                         </div>
@@ -380,11 +380,11 @@ session_start();
                         <div class="card-body text-center">
                             <img src="https://www.jiomart.com/images/product/original/590000070/pineapple-queen-1-pc-0-20201119.jpg" class="card-img-top" width="400" height="250">
 
-                            <h5 class="card-title">PineApple</h5>
-                            <p class="card-text">Price: Rs.140</p>
+                            <h5 class="card-title">Pineapple 1 pc - (Approx 750g - 850g)</h5>
+                            <p class="card-text">Price: Rs.125</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="PineApple">
-                            <input type="hidden" name="Price" value="140">
+                            <input type="hidden" name="Item_Name" value="Pineapple 1 pc - (Approx 750g - 850g)">
+                            <input type="hidden" name="Price" value="125">
 
                         </div>
                     </div>
@@ -399,11 +399,11 @@ session_start();
                         <div class="card-body text-center">
                             <img src="https://www.news-medical.net/image.axd?picture=2020%2F12%2Fshutterstock_1291478515.jpg"class="card-img-top" width="400" height="250">
 
-                            <h5 class="card-title">Pomegranate</h5>
-                            <p class="card-text">Price: Rs.220</p>
+                            <h5 class="card-title">Pomegranate 6 pcs - (Approx 800g - 850g)</h5>
+                            <p class="card-text">Price: Rs.190</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Pomegranate">
-                            <input type="hidden" name="Price" value="220">
+                            <input type="hidden" name="Item_Name" value="Pomegranate 6 pcs - (Approx 800g - 850g)">
+                            <input type="hidden" name="Price" value="190">
 
                         </div>
                     </div>
@@ -417,11 +417,11 @@ session_start();
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
                         <img src="https://static.libertyprim.com/files/familles/poire-large.jpg?1569271830"class="card-img-top" width="400" height="250">
-                            <h5 class="card-title">Pears</h5>
-                            <p class="card-text">Price: Rs.200</p>
+                            <h5 class="card-title">Pear (1kg)</h5>
+                            <p class="card-text">Price: Rs.110</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Pears">
-                            <input type="hidden" name="Price" value="200">
+                            <input type="hidden" name="Item_Name" value="Pear (1kg)">
+                            <input type="hidden" name="Price" value="110">
 
                         </div>
                     </div>
@@ -435,11 +435,11 @@ session_start();
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
                         <img src="https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/05/18/Pictures/_cdbf52fa-5a63-11e8-b431-73159b4b09e2.jpg" class="card-img-top" width="400" height="250">
-                            <h5 class="card-title">Banana</h5>
-                            <p class="card-text">Price: Rs.11</p>
+                            <h5 class="card-title">Banana (1kg)</h5>
+                            <p class="card-text">Price: Rs.41</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Banana">
-                            <input type="hidden" name="Price" value="11">
+                            <input type="hidden" name="Item_Name" value="Banana (1kg)">
+                            <input type="hidden" name="Price" value="41">
 
                         </div>
                     </div>
@@ -460,10 +460,10 @@ session_start();
                         <div class="card-body text-center">
                             <img src="https://images-prod.healthline.com/hlcmsresource/images/AN_images/health-benefits-of-apples-1296x728-feature.jpg" class="card-img-top" width="400" height="250">
 
-                            <h5 class="card-title">Apple</h5>
+                            <h5 class="card-title">Apple 6 pcs - (Approx 500g-600g)</h5>
                             <p class="card-text">Price: Rs.207</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Apple">
+                            <input type="hidden" name="Item_Name" value="Apple 6 pcs - (Approx 500g-600g)">
                             <input type="hidden" name="Price" value="207">
 
                         </div>
@@ -486,10 +486,10 @@ session_start();
                         <div class="card-body text-center">
                             <img src="https://media.newyorker.com/photos/5b6b08d3a676470b4ea9b91f/4:3/w_1920,h_1440,c_limit/Rosner-Lettuce.jpg" class="card-img-top" width="400" height="250">
 
-                            <h5 class="card-title">Iceberg_Lettuce</h5>
+                            <h5 class="card-title">Iceberg Lettuce 1 pc - (Approx 500g-800g)</h5>
                             <p class="card-text">Price: Rs.175</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Iceberg_Lettuce">
+                            <input type="hidden" name="Item_Name" value="Iceberg Lettuce 1 pc - (Approx 500g-800g)">
                             <input type="hidden" name="Price" value="175">
 
                         </div>
@@ -505,11 +505,11 @@ session_start();
                         <div class="card-body text-center">
                             <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/270678_1100-800x825.jpg"class="card-img-top" width="400" height="250">
 
-                            <h5 class="card-title">Celery</h5>
-                            <p class="card-text">Price: Rs.320</p>
+                            <h5 class="card-title">Celery (200g)</h5>
+                            <p class="card-text">Price: Rs.108</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Celery">
-                            <input type="hidden" name="Price" value="320">
+                            <input type="hidden" name="Item_Name" value="Celery (200g)">
+                            <input type="hidden" name="Price" value="108">
 
                         </div>
                     </div>
@@ -523,11 +523,11 @@ session_start();
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
                         <img src="https://www.bigbasket.com/media/uploads/p/l/40138448_3-fresho-baby-spinach.jpg"class="card-img-top" width="400" height="250">
-                            <h5 class="card-title">Baby_Spinach</h5>
-                            <p class="card-text">Price: Rs.150</p>
+                            <h5 class="card-title">Baby Spinach (100g)</h5>
+                            <p class="card-text">Price: Rs.115</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Baby_Spinach">
-                            <input type="hidden" name="Price" value="150">
+                            <input type="hidden" name="Item_Name" value="Baby Spinach (100g)">
+                            <input type="hidden" name="Price" value="115">
 
                         </div>
                     </div>
@@ -541,11 +541,11 @@ session_start();
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
                         <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/5138/h0618g16207257173805.jpg" class="card-img-top" width="400" height="250">
-                            <h5 class="card-title">Avocado</h5>
-                            <p class="card-text">Price: Rs.199</p>
+                            <h5 class="card-title">Avocado 1 pc - (Medium)</h5>
+                            <p class="card-text">Price: Rs.320</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Avocado">
-                            <input type="hidden" name="Price" value="199">
+                            <input type="hidden" name="Item_Name" value="Avocado 1 pc - (Medium)">
+                            <input type="hidden" name="Price" value="320">
 
                         </div>
                     </div>
@@ -564,11 +564,11 @@ session_start();
                         <div class="card-body text-center">
                             <img src="https://cdn.mos.cms.futurecdn.net/r8NK24bmcMgSib5zWKKQkW.jpg" class="card-img-top" width="400" height="250">
 
-                            <h5 class="card-title">Broccoli</h5>
-                            <p class="card-text">Price: Rs.220</p>
+                            <h5 class="card-title">Broccoli (1kg)</h5>
+                            <p class="card-text">Price: Rs.140</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Broccoli">
-                            <input type="hidden" name="Price" value="220">
+                            <input type="hidden" name="Item_Name" value="Broccoli (1kg)">
+                            <input type="hidden" name="Price" value="140">
 
                         </div>
                     </div>
@@ -583,11 +583,11 @@ session_start();
                         <div class="card-body text-center">
                             <img src="https://cdn.shopify.com/s/files/1/0432/2849/6022/products/lady-finger_434x.jpg?v=1603233095"class="card-img-top" width="400" height="250">
 
-                            <h5 class="card-title">Bhindi</h5>
-                            <p class="card-text">Price: Rs.120</p>
+                            <h5 class="card-title">Ladies Finger (1kg)</h5>
+                            <p class="card-text">Price: Rs.70</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Bindi">
-                            <input type="hidden" name="Price" value="120">
+                            <input type="hidden" name="Item_Name" value="Ladies Finger (1kg)">
+                            <input type="hidden" name="Price" value="70">
 
                         </div>
                     </div>
@@ -601,11 +601,11 @@ session_start();
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
                         <img src="http://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-baby-corn-f1-hybrid-vegetable-seeds-16969051013260.jpg?v=1601347841"class="card-img-top" width="400" height="250">
-                            <h5 class="card-title">Baby_Corn</h5>
-                            <p class="card-text">Price: Rs.60</p>
+                            <h5 class="card-title">Baby Corn (1kg)</h5>
+                            <p class="card-text">Price: Rs.110</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Baby_Corn">
-                            <input type="hidden" name="Price" value="60">
+                            <input type="hidden" name="Item_Name" value="Baby Corn (1kg)">
+                            <input type="hidden" name="Price" value="110">
 
                         </div>
                     </div>
@@ -619,11 +619,11 @@ session_start();
                         <img src="" class="card-img-top">
                         <div class="card-body text-center">
                         <img src="https://static.toiimg.com/photo/69756751.cms" class="card-img-top" width="400" height="250">
-                            <h5 class="card-title">Arbi</h5>
-                            <p class="card-text">Price: Rs.199</p>
+                            <h5 class="card-title">Arbi (500g)</h5>
+                            <p class="card-text">Price: Rs.80</p>
                             <button type="submit" name="Add_To_Cart" class="btn btn-info">Add To Cart</button>
-                            <input type="hidden" name="Item_Name" value="Arbi">
-                            <input type="hidden" name="Price" value="120">
+                            <input type="hidden" name="Item_Name" value="Arbi (500g)">
+                            <input type="hidden" name="Price" value="80">
 
                         </div>
                     </div>
